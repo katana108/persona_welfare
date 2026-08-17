@@ -38,3 +38,18 @@ Next likely work:
 - Recompute the random-direction null on pair-centered projections.
 - Check persona-specific affect directions to test whether the pooled direction is hiding persona structure.
 - Revisit parse failures and small-cell caveats before making stronger persona-level claims.
+
+## 2026-08-17 JSON transcript add
+
+Transcript source check:
+
+- `/Users/amikeda/Downloads/repo` originally contained no JSON transcript files.
+- `/Users/amikeda/Desktop/Welfare tests/from Katana.1` and `/Users/amikeda/Desktop/Welfare tests/1st round` each contained 36 JSON files and were exact duplicates by checksum.
+- `/Users/amikeda/Desktop/Welfare tests/2nd round` contained 36 JSON files with the same scripted questions but different model answers and timestamps, so it is a real rerun rather than a duplicate.
+
+Repository decision:
+
+- Committed 36 JSON files from `1st round` into `data/round1/`.
+- Committed 36 JSON files from `2nd round` into `data/round2/`.
+- Did not commit any `.npz` hidden-state archives.
+- Kept the source folder naming as found locally; round 1 uses `0_Test 2` and round 2 uses `0_Test`.
