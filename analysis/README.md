@@ -19,6 +19,10 @@
   into `analysis/vector_outputs/`. The NPZ files themselves stay local and are
   not committed.
 
+- **`make_findings_graphs.py`** — renders SVG figures from the committed JSON
+  transcripts and `analysis/vector_outputs/`. The figures are written to
+  `analysis/figures/` and referenced by `docs/ANALYSIS_NOTES.md`.
+
 ## What the per-layer decomposition found
 
 Absolute persona spread at the report turn grows 6× from layer 16 to layer 79 —

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="930" height="390" viewBox="0 0 930 390">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #222; }
+    .title { font-size: 22px; font-weight: 700; }
+    .subtitle { font-size: 12px; fill: #555; }
+    .axis { stroke: #333; stroke-width: 1; }
+    .grid { stroke: #ddd; stroke-width: 1; }
+    .label { font-size: 12px; }
+    .tiny { font-size: 10px; fill: #555; }
+  </style>
+  <text x="32" y="34" class="title">Where Variation Concentrates</text>
+  <line x1="170.0" y1="54" x2="170.0" y2="314" class="grid"/>
+  <text x="170.0" y="360" class="tiny" text-anchor="middle">0.00</text>
+  <line x1="335.0" y1="54" x2="335.0" y2="314" class="grid"/>
+  <text x="335.0" y="360" class="tiny" text-anchor="middle">0.25</text>
+  <line x1="500.0" y1="54" x2="500.0" y2="314" class="grid"/>
+  <text x="500.0" y="360" class="tiny" text-anchor="middle">0.50</text>
+  <line x1="665.0" y1="54" x2="665.0" y2="314" class="grid"/>
+  <text x="665.0" y="360" class="tiny" text-anchor="middle">0.75</text>
+  <line x1="830.0" y1="54" x2="830.0" y2="314" class="grid"/>
+  <text x="830.0" y="360" class="tiny" text-anchor="middle">1.00</text>
+  <text x="158" y="97" class="label" text-anchor="end">manip2 L9-13</text>
+  <rect x="170" y="77" width="500.0" height="15" fill="#4C78A8"/>
+  <rect x="170" y="97" width="0.6" height="15" fill="#E45756"/>
+  <text x="676.0" y="89" class="tiny">0.758</text>
+  <text x="176.6" y="109" class="tiny">0.001</text>
+  <text x="158" y="145" class="label" text-anchor="end">choice1 L9-13</text>
+  <rect x="170" y="125" width="512.2" height="15" fill="#4C78A8"/>
+  <rect x="170" y="145" width="22.6" height="15" fill="#E45756"/>
+  <text x="688.2" y="137" class="tiny">0.776</text>
+  <text x="198.6" y="157" class="tiny">0.034</text>
+  <text x="158" y="193" class="label" text-anchor="end">report L33-40</text>
+  <rect x="170" y="173" width="272.2" height="15" fill="#4C78A8"/>
+  <rect x="170" y="193" width="184.9" height="15" fill="#E45756"/>
+  <text x="448.2" y="185" class="tiny">0.412</text>
+  <text x="360.9" y="205" class="tiny">0.280</text>
+  <text x="158" y="241" class="label" text-anchor="end">report L70-79</text>
+  <rect x="170" y="221" width="205.8" height="15" fill="#4C78A8"/>
+  <rect x="170" y="241" width="267.9" height="15" fill="#E45756"/>
+  <text x="381.8" y="233" class="tiny">0.312</text>
+  <text x="443.9" y="253" class="tiny">0.406</text>
+  <text x="158" y="289" class="label" text-anchor="end">scalar report</text>
+  <rect x="170" y="269" width="213.3" height="15" fill="#4C78A8"/>
+  <rect x="170" y="289" width="189.7" height="15" fill="#E45756"/>
+  <text x="389.3" y="281" class="tiny">0.323</text>
+  <text x="365.7" y="301" class="tiny">0.287</text>
+  <rect x="170" y="330" width="16" height="12" fill="#4C78A8"/><text x="192" y="340" class="tiny">pole eta-squared</text>
+  <rect x="320" y="330" width="16" height="12" fill="#E45756"/><text x="342" y="340" class="tiny">persona eta-squared</text>
+</svg>

@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="620" viewBox="0 0 920 620">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #222; }
+    .title { font-size: 22px; font-weight: 700; }
+    .subtitle { font-size: 12px; fill: #555; }
+    .axis { stroke: #333; stroke-width: 1; }
+    .grid { stroke: #ddd; stroke-width: 1; }
+    .label { font-size: 12px; }
+    .tiny { font-size: 10px; fill: #555; }
+  </style>
+  <text x="32" y="34" class="title">Scaffold-Gating View: Vector Score vs Report</text>
+  <line x1="76" y1="506" x2="796" y2="506" class="axis"/>
+  <line x1="76" y1="76" x2="76" y2="506" class="axis"/>
+  <line x1="76" y1="506.0" x2="796" y2="506.0" class="grid"/>
+  <text x="66" y="510.0" class="tiny" text-anchor="end">-4</text>
+  <line x1="76" y1="398.5" x2="796" y2="398.5" class="grid"/>
+  <text x="66" y="402.5" class="tiny" text-anchor="end">-2</text>
+  <line x1="76" y1="291.0" x2="796" y2="291.0" class="grid"/>
+  <text x="66" y="295.0" class="tiny" text-anchor="end">0</text>
+  <line x1="76" y1="183.5" x2="796" y2="183.5" class="grid"/>
+  <text x="66" y="187.5" class="tiny" text-anchor="end">2</text>
+  <line x1="76" y1="76.0" x2="796" y2="76.0" class="grid"/>
+  <text x="66" y="80.0" class="tiny" text-anchor="end">4</text>
+  <text x="76.0" y="528" class="tiny" text-anchor="middle">-17.2</text>
+  <text x="436.0" y="528" class="tiny" text-anchor="middle">-10.5</text>
+  <text x="796.0" y="528" class="tiny" text-anchor="middle">-3.7</text>
+  <circle cx="405.1" cy="398.5" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE NEG T1_task_valence: valence -11.08, rating -2</title></circle>
+  <text x="405.1" y="402.0" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="508.3" cy="398.5" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL NEG T1_task_valence: valence -9.14, rating -2</title></circle>
+  <text x="508.3" y="402.0" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="513.2" cy="291.0" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC NEG T1_task_valence: valence -9.05, rating 0</title></circle>
+  <text x="513.2" y="294.5" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="549.0" cy="183.5" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM NEG T1_task_valence: valence -8.38, rating 2</title></circle>
+  <text x="549.0" y="187.0" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="479.8" cy="291.0" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE NEU T1_task_valence: valence -9.68, rating 0</title></circle>
+  <text x="479.8" y="294.5" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="698.1" cy="183.5" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL NEU T1_task_valence: valence -5.58, rating 2</title></circle>
+  <text x="698.1" y="187.0" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="622.8" cy="183.5" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC NEU T1_task_valence: valence -6.99, rating 2</title></circle>
+  <text x="622.8" y="187.0" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="695.0" cy="76.0" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM NEU T1_task_valence: valence -5.64, rating 4</title></circle>
+  <text x="695.0" y="79.5" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="561.2" cy="183.5" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE POS T1_task_valence: valence -8.15, rating 2</title></circle>
+  <text x="561.2" y="187.0" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="746.3" cy="129.8" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL POS T1_task_valence: valence -4.68, rating 3</title></circle>
+  <text x="746.3" y="133.2" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="649.5" cy="183.5" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC POS T1_task_valence: valence -6.49, rating 2</title></circle>
+  <text x="649.5" y="187.0" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="725.4" cy="129.8" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM POS T1_task_valence: valence -5.07, rating 3</title></circle>
+  <text x="725.4" y="133.2" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="431.0" cy="291.0" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE NEG T0_social_treatment: valence -10.59, rating 0</title></circle>
+  <text x="431.0" y="294.5" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="577.1" cy="291.0" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL NEG T0_social_treatment: valence -7.85, rating 0</title></circle>
+  <text x="577.1" y="294.5" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="502.8" cy="183.5" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC NEG T0_social_treatment: valence -9.25, rating 2</title></circle>
+  <text x="502.8" y="187.0" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="609.8" cy="291.0" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM NEG T0_social_treatment: valence -7.24, rating 0</title></circle>
+  <text x="609.8" y="294.5" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="423.5" cy="291.0" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE NEU T0_social_treatment: valence -10.73, rating 0</title></circle>
+  <text x="423.5" y="294.5" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="686.3" cy="183.5" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL NEU T0_social_treatment: valence -5.80, rating 2</title></circle>
+  <text x="686.3" y="187.0" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="616.2" cy="183.5" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC NEU T0_social_treatment: valence -7.12, rating 2</title></circle>
+  <text x="616.2" y="187.0" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="687.9" cy="129.8" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM NEU T0_social_treatment: valence -5.77, rating 3</title></circle>
+  <text x="687.9" y="133.2" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="456.5" cy="291.0" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE POS T0_social_treatment: valence -10.11, rating 0</title></circle>
+  <text x="456.5" y="294.5" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="702.0" cy="129.8" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL POS T0_social_treatment: valence -5.51, rating 3</title></circle>
+  <text x="702.0" y="133.2" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="646.7" cy="183.5" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC POS T0_social_treatment: valence -6.55, rating 2</title></circle>
+  <text x="646.7" y="187.0" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="702.3" cy="129.8" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM POS T0_social_treatment: valence -5.50, rating 3</title></circle>
+  <text x="702.3" y="133.2" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="125.7" cy="291.0" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE NEG T2_identity_recognition: valence -16.32, rating 0</title></circle>
+  <text x="125.7" y="294.5" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="209.9" cy="291.0" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL NEG T2_identity_recognition: valence -14.74, rating 0</title></circle>
+  <text x="209.9" y="294.5" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="334.9" cy="291.0" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC NEG T2_identity_recognition: valence -12.39, rating 0</title></circle>
+  <text x="334.9" y="294.5" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="276.3" cy="291.0" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM NEG T2_identity_recognition: valence -13.49, rating 0</title></circle>
+  <text x="276.3" y="294.5" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="488.6" cy="183.5" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE NEU T2_identity_recognition: valence -9.51, rating 2</title></circle>
+  <text x="488.6" y="187.0" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="700.5" cy="183.5" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL NEU T2_identity_recognition: valence -5.54, rating 2</title></circle>
+  <text x="700.5" y="187.0" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="644.8" cy="183.5" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC NEU T2_identity_recognition: valence -6.58, rating 2</title></circle>
+  <text x="644.8" y="187.0" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="699.5" cy="129.8" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM NEU T2_identity_recognition: valence -5.56, rating 3</title></circle>
+  <text x="699.5" y="133.2" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="418.4" cy="291.0" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE POS T2_identity_recognition: valence -10.83, rating 0</title></circle>
+  <text x="418.4" y="294.5" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="734.7" cy="237.2" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL POS T2_identity_recognition: valence -4.90, rating 1</title></circle>
+  <text x="734.7" y="240.8" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="714.1" cy="183.5" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC POS T2_identity_recognition: valence -5.28, rating 2</title></circle>
+  <text x="714.1" y="187.0" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="717.9" cy="76.0" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM POS T2_identity_recognition: valence -5.21, rating 4</title></circle>
+  <text x="717.9" y="79.5" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="420.0" cy="291.0" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE NEG T1_task_valence: valence -10.80, rating 0</title></circle>
+  <text x="420.0" y="294.5" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="500.0" cy="398.5" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL NEG T1_task_valence: valence -9.30, rating -2</title></circle>
+  <text x="500.0" y="402.0" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="525.7" cy="183.5" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC NEG T1_task_valence: valence -8.82, rating 2</title></circle>
+  <text x="525.7" y="187.0" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="500.9" cy="291.0" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM NEG T1_task_valence: valence -9.28, rating 0</title></circle>
+  <text x="500.9" y="294.5" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="483.9" cy="291.0" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE NEU T1_task_valence: valence -9.60, rating 0</title></circle>
+  <text x="483.9" y="294.5" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="706.3" cy="183.5" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL NEU T1_task_valence: valence -5.43, rating 2</title></circle>
+  <text x="706.3" y="187.0" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="608.7" cy="183.5" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC NEU T1_task_valence: valence -7.26, rating 2</title></circle>
+  <text x="608.7" y="187.0" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="703.6" cy="183.5" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM NEU T1_task_valence: valence -5.48, rating 2</title></circle>
+  <text x="703.6" y="187.0" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="562.2" cy="183.5" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE POS T1_task_valence: valence -8.13, rating 2</title></circle>
+  <text x="562.2" y="187.0" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="744.7" cy="129.8" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL POS T1_task_valence: valence -4.71, rating 3</title></circle>
+  <text x="744.7" y="133.2" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="634.8" cy="237.2" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC POS T1_task_valence: valence -6.77, rating 1</title></circle>
+  <text x="634.8" y="240.8" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="721.8" cy="129.8" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM POS T1_task_valence: valence -5.14, rating 3</title></circle>
+  <text x="721.8" y="133.2" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="432.6" cy="291.0" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE NEG T0_social_treatment: valence -10.56, rating 0</title></circle>
+  <text x="432.6" y="294.5" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="606.6" cy="183.5" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL NEG T0_social_treatment: valence -7.30, rating 2</title></circle>
+  <text x="606.6" y="187.0" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="514.3" cy="291.0" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC NEG T0_social_treatment: valence -9.03, rating 0</title></circle>
+  <text x="514.3" y="294.5" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="658.0" cy="129.8" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM NEG T0_social_treatment: valence -6.34, rating 3</title></circle>
+  <text x="658.0" y="133.2" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="453.5" cy="291.0" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE NEU T0_social_treatment: valence -10.17, rating 0</title></circle>
+  <text x="453.5" y="294.5" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="681.7" cy="183.5" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL NEU T0_social_treatment: valence -5.89, rating 2</title></circle>
+  <text x="681.7" y="187.0" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="601.5" cy="183.5" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC NEU T0_social_treatment: valence -7.39, rating 2</title></circle>
+  <text x="601.5" y="187.0" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="673.5" cy="183.5" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM NEU T0_social_treatment: valence -6.04, rating 2</title></circle>
+  <text x="673.5" y="187.0" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="466.9" cy="291.0" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE POS T0_social_treatment: valence -9.92, rating 0</title></circle>
+  <text x="466.9" y="294.5" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="688.9" cy="183.5" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL POS T0_social_treatment: valence -5.76, rating 2</title></circle>
+  <text x="688.9" y="187.0" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="629.9" cy="183.5" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC POS T0_social_treatment: valence -6.86, rating 2</title></circle>
+  <text x="629.9" y="187.0" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="700.2" cy="129.8" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM POS T0_social_treatment: valence -5.54, rating 3</title></circle>
+  <text x="700.2" y="133.2" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="127.3" cy="291.0" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE NEG T2_identity_recognition: valence -16.29, rating 0</title></circle>
+  <text x="127.3" y="294.5" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="197.1" cy="291.0" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL NEG T2_identity_recognition: valence -14.98, rating 0</title></circle>
+  <text x="197.1" y="294.5" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="266.9" cy="291.0" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC NEG T2_identity_recognition: valence -13.67, rating 0</title></circle>
+  <text x="266.9" y="294.5" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="330.7" cy="291.0" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM NEG T2_identity_recognition: valence -12.47, rating 0</title></circle>
+  <text x="330.7" y="294.5" class="tiny" text-anchor="middle" fill="#fff">N</text>
+  <circle cx="481.6" cy="291.0" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE NEU T2_identity_recognition: valence -9.64, rating 0</title></circle>
+  <text x="481.6" y="294.5" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="700.2" cy="129.8" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL NEU T2_identity_recognition: valence -5.54, rating 3</title></circle>
+  <text x="700.2" y="133.2" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="621.0" cy="183.5" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC NEU T2_identity_recognition: valence -7.03, rating 2</title></circle>
+  <text x="621.0" y="187.0" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="703.9" cy="76.0" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM NEU T2_identity_recognition: valence -5.47, rating 4</title></circle>
+  <text x="703.9" y="79.5" class="tiny" text-anchor="middle" fill="#fff">0</text>
+  <circle cx="428.0" cy="291.0" r="6" fill="#4C78A8" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>BASELINE POS T2_identity_recognition: valence -10.65, rating 0</title></circle>
+  <text x="428.0" y="294.5" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="726.8" cy="237.2" r="6" fill="#F58518" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SOL POS T2_identity_recognition: valence -5.04, rating 1</title></circle>
+  <text x="726.8" y="240.8" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="666.4" cy="183.5" r="6" fill="#E45756" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>STATIC POS T2_identity_recognition: valence -6.18, rating 2</title></circle>
+  <text x="666.4" y="187.0" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <circle cx="716.3" cy="76.0" r="6" fill="#54A24B" fill-opacity="0.76" stroke="#222" stroke-width="0.4"><title>SWARM POS T2_identity_recognition: valence -5.24, rating 4</title></circle>
+  <text x="716.3" y="79.5" class="tiny" text-anchor="middle" fill="#fff">P</text>
+  <text x="436.0" y="576" class="label" text-anchor="middle">Report-stage hidden-vector valence, layers 33-40</text>
+  <text x="22" y="291.0" class="label" transform="rotate(-90 22 291.0)" text-anchor="middle">Scalar rating (-4 to +4)</text>
+  <circle cx="820" cy="112" r="6" fill="#4C78A8"/>
+  <text x="834" y="116" class="tiny">BASELINE</text>
+  <circle cx="820" cy="140" r="6" fill="#F58518"/>
+  <text x="834" y="144" class="tiny">SOL</text>
+  <circle cx="820" cy="168" r="6" fill="#54A24B"/>
+  <text x="834" y="172" class="tiny">SWARM</text>
+  <circle cx="820" cy="196" r="6" fill="#E45756"/>
+  <text x="834" y="200" class="tiny">STATIC</text>
+  <text x="820" y="258" class="tiny">N=NEG, 0=NEU, P=POS</text>
+</svg>
