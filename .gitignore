@@ -1,0 +1,19 @@
+# large binaries — keep NPZ out of git unless using LFS (see docs/DATA.md)
+*.npz
+!data/**/*.npz
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# os
+.DS_Store
+Thumbs.db
+
+# secrets — never commit tokens
+.env
+*.key
+secrets*
