@@ -12,6 +12,13 @@
 - **`analyze_perlayer.py`** — standalone summary + figure from those CSVs
   (currently has the round-2 numbers inlined; point it at the CSVs when re-running).
 
+- **`analyze_hidden_vectors.py`** — standalone NPZ analysis. Reads local hidden-state
+  archives from `/Users/amikeda/Desktop/Welfare tests/{1st round,2nd round}`,
+  joins them to the committed JSON transcripts, builds a per-layer `NEG - POS`
+  contrast vector from manipulation and choice stages, and writes CSV summaries
+  into `analysis/vector_outputs/`. The NPZ files themselves stay local and are
+  not committed.
+
 ## What the per-layer decomposition found
 
 Absolute persona spread at the report turn grows 6× from layer 16 to layer 79 —

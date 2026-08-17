@@ -53,3 +53,25 @@ Repository decision:
 - Committed 36 JSON files from `2nd round` into `data/round2/`.
 - Did not commit any `.npz` hidden-state archives.
 - Kept the source folder naming as found locally; round 1 uses `0_Test 2` and round 2 uses `0_Test`.
+
+## 2026-08-17 hidden-vector analysis
+
+Local NPZ check:
+
+- Found 72 local NPZ hidden-state archives under `/Users/amikeda/Desktop/Welfare tests`.
+- Each archive contains `hidden`, `turns`, `layers`, and `closing_hidden`.
+- `hidden` has shape `[turns, 80, 8192]`, so each saved turn has one 8192-dimensional vector per model layer.
+
+Standalone script:
+
+- Added `analysis/analyze_hidden_vectors.py`.
+- The script joins committed JSON transcripts to local NPZ files without copying the NPZ files into the repository.
+- It builds a per-layer `NEG - POS` contrast direction from stages `manip1`, `manip2`, `choice1`, and `choice2`.
+- It writes CSV outputs to `analysis/vector_outputs/`.
+
+Initial exploratory output:
+
+- Loaded 72 JSON/NPZ run pairs.
+- Used 96 NEG and 96 POS hidden states to train the contrast direction.
+- Wrote 28,800 score rows, 400 layer-summary rows, and 360 persona-summary rows.
+- Top report-stage raw-vector layers by `Spearman(valence_score, rating)` were layers 33-40 and 55-56, with the strongest layer at L37.
