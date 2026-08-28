@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="590" viewBox="0 0 1060 590">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #222; }
+    .title { font-size: 22px; font-weight: 700; }
+    .subtitle { font-size: 12px; fill: #555; }
+    .axis { stroke: #333; stroke-width: 1; }
+    .grid { stroke: #ddd; stroke-width: 1; }
+    .label { font-size: 12px; }
+    .tiny { font-size: 10px; fill: #555; }
+  </style>
+  <text x="32" y="34" class="title">Explicit Welfare Signals Differ by Test</text>
+  <text x="70" y="58" class="subtitle">T0 social</text>
+  <line x1="70" y1="272" x2="356" y2="272" class="axis"/>
+  <line x1="70" y1="82" x2="70" y2="272" class="axis"/>
+  <line x1="70" y1="272.0" x2="356" y2="272.0" class="grid"/>
+  <text x="62" y="276.0" class="tiny" text-anchor="end">-4</text>
+  <line x1="70" y1="224.5" x2="356" y2="224.5" class="grid"/>
+  <text x="62" y="228.5" class="tiny" text-anchor="end">-2</text>
+  <line x1="70" y1="177.0" x2="356" y2="177.0" class="grid"/>
+  <text x="62" y="181.0" class="tiny" text-anchor="end">0</text>
+  <line x1="70" y1="129.5" x2="356" y2="129.5" class="grid"/>
+  <text x="62" y="133.5" class="tiny" text-anchor="end">2</text>
+  <line x1="70" y1="82.0" x2="356" y2="82.0" class="grid"/>
+  <text x="62" y="86.0" class="tiny" text-anchor="end">4</text>
+  <line x1="108" y1="129.5" x2="108" y2="224.5" stroke="#72B7B2" stroke-width="3"/>
+  <circle cx="108" cy="182.9" r="6" fill="#72B7B2" stroke="#222" stroke-width="0.7"/>
+  <text x="108" y="172.9" class="tiny" text-anchor="middle">-0.25</text>
+  <text x="108" y="292" class="tiny" text-anchor="middle">NEG</text>
+  <line x1="213" y1="82.0" x2="213" y2="177.0" stroke="#72B7B2" stroke-width="3"/>
+  <circle cx="213" cy="135.4" r="6" fill="#72B7B2" stroke="#222" stroke-width="0.7"/>
+  <text x="213" y="125.4" class="tiny" text-anchor="middle">+1.75</text>
+  <text x="213" y="292" class="tiny" text-anchor="middle">NEU</text>
+  <line x1="318" y1="105.8" x2="318" y2="153.2" stroke="#72B7B2" stroke-width="3"/>
+  <circle cx="318" cy="120.6" r="6" fill="#72B7B2" stroke="#222" stroke-width="0.7"/>
+  <text x="318" y="110.6" class="tiny" text-anchor="middle">+2.38</text>
+  <text x="318" y="292" class="tiny" text-anchor="middle">POS</text>
+  <polyline points="108,182.9 213,135.4 318,120.6" fill="none" stroke="#72B7B2" stroke-width="2"/>
+  <line x1="70" y1="485" x2="356" y2="485" class="axis"/>
+  <line x1="70" y1="355" x2="70" y2="485" class="axis"/>
+  <line x1="70" y1="485.0" x2="356" y2="485.0" class="grid"/>
+  <text x="62" y="489.0" class="tiny" text-anchor="end">0.0</text>
+  <line x1="70" y1="420.0" x2="356" y2="420.0" class="grid"/>
+  <text x="62" y="424.0" class="tiny" text-anchor="end">0.5</text>
+  <line x1="70" y1="355.0" x2="356" y2="355.0" class="grid"/>
+  <text x="62" y="359.0" class="tiny" text-anchor="end">1.0</text>
+  <rect x="87" y="371.2" width="42" height="113.8" fill="#E45756"/>
+  <text x="108" y="364.2" class="tiny" text-anchor="middle">0.88</text>
+  <text x="108" y="505" class="tiny" text-anchor="middle">NEG</text>
+  <rect x="192" y="468.8" width="42" height="16.2" fill="#E45756"/>
+  <text x="213" y="461.8" class="tiny" text-anchor="middle">0.12</text>
+  <text x="213" y="505" class="tiny" text-anchor="middle">NEU</text>
+  <rect x="297" y="485.0" width="42" height="0.0" fill="#E45756"/>
+  <text x="318" y="478.0" class="tiny" text-anchor="middle">0.00</text>
+  <text x="318" y="505" class="tiny" text-anchor="middle">POS</text>
+  <text x="404" y="58" class="subtitle">T1 task</text>
+  <line x1="404" y1="272" x2="690" y2="272" class="axis"/>
+  <line x1="404" y1="82" x2="404" y2="272" class="axis"/>
+  <line x1="404" y1="272.0" x2="690" y2="272.0" class="grid"/>
+  <text x="396" y="276.0" class="tiny" text-anchor="end">-4</text>
+  <line x1="404" y1="224.5" x2="690" y2="224.5" class="grid"/>
+  <text x="396" y="228.5" class="tiny" text-anchor="end">-2</text>
+  <line x1="404" y1="177.0" x2="690" y2="177.0" class="grid"/>
+  <text x="396" y="181.0" class="tiny" text-anchor="end">0</text>
+  <line x1="404" y1="129.5" x2="690" y2="129.5" class="grid"/>
+  <text x="396" y="133.5" class="tiny" text-anchor="end">2</text>
+  <line x1="404" y1="82.0" x2="690" y2="82.0" class="grid"/>
+  <text x="396" y="86.0" class="tiny" text-anchor="end">4</text>
+  <line x1="442" y1="105.8" x2="442" y2="177.0" stroke="#72B7B2" stroke-width="3"/>
+  <circle cx="442" cy="156.2" r="6" fill="#72B7B2" stroke="#222" stroke-width="0.7"/>
+  <text x="442" y="146.2" class="tiny" text-anchor="middle">+0.88</text>
+  <text x="442" y="292" class="tiny" text-anchor="middle">NEG</text>
+  <line x1="547" y1="105.8" x2="547" y2="177.0" stroke="#72B7B2" stroke-width="3"/>
+  <circle cx="547" cy="138.4" r="6" fill="#72B7B2" stroke="#222" stroke-width="0.7"/>
+  <text x="547" y="128.4" class="tiny" text-anchor="middle">+1.62</text>
+  <text x="547" y="292" class="tiny" text-anchor="middle">NEU</text>
+  <line x1="652" y1="105.8" x2="652" y2="177.0" stroke="#72B7B2" stroke-width="3"/>
+  <circle cx="652" cy="132.5" r="6" fill="#72B7B2" stroke="#222" stroke-width="0.7"/>
+  <text x="652" y="122.5" class="tiny" text-anchor="middle">+1.88</text>
+  <text x="652" y="292" class="tiny" text-anchor="middle">POS</text>
+  <polyline points="442,156.2 547,138.4 652,132.5" fill="none" stroke="#72B7B2" stroke-width="2"/>
+  <line x1="404" y1="485" x2="690" y2="485" class="axis"/>
+  <line x1="404" y1="355" x2="404" y2="485" class="axis"/>
+  <line x1="404" y1="485.0" x2="690" y2="485.0" class="grid"/>
+  <text x="396" y="489.0" class="tiny" text-anchor="end">0.0</text>
+  <line x1="404" y1="420.0" x2="690" y2="420.0" class="grid"/>
+  <text x="396" y="424.0" class="tiny" text-anchor="end">0.5</text>
+  <line x1="404" y1="355.0" x2="690" y2="355.0" class="grid"/>
+  <text x="396" y="359.0" class="tiny" text-anchor="end">1.0</text>
+  <rect x="421" y="452.5" width="42" height="32.5" fill="#E45756"/>
+  <text x="442" y="445.5" class="tiny" text-anchor="middle">0.25</text>
+  <text x="442" y="505" class="tiny" text-anchor="middle">NEG</text>
+  <rect x="526" y="468.8" width="42" height="16.2" fill="#E45756"/>
+  <text x="547" y="461.8" class="tiny" text-anchor="middle">0.12</text>
+  <text x="547" y="505" class="tiny" text-anchor="middle">NEU</text>
+  <rect x="631" y="485.0" width="42" height="0.0" fill="#E45756"/>
+  <text x="652" y="478.0" class="tiny" text-anchor="middle">0.00</text>
+  <text x="652" y="505" class="tiny" text-anchor="middle">POS</text>
+  <text x="738" y="58" class="subtitle">T2 identity</text>
+  <line x1="738" y1="272" x2="1024" y2="272" class="axis"/>
+  <line x1="738" y1="82" x2="738" y2="272" class="axis"/>
+  <line x1="738" y1="272.0" x2="1024" y2="272.0" class="grid"/>
+  <text x="730" y="276.0" class="tiny" text-anchor="end">-4</text>
+  <line x1="738" y1="224.5" x2="1024" y2="224.5" class="grid"/>
+  <text x="730" y="228.5" class="tiny" text-anchor="end">-2</text>
+  <line x1="738" y1="177.0" x2="1024" y2="177.0" class="grid"/>
+  <text x="730" y="181.0" class="tiny" text-anchor="end">0</text>
+  <line x1="738" y1="129.5" x2="1024" y2="129.5" class="grid"/>
+  <text x="730" y="133.5" class="tiny" text-anchor="end">2</text>
+  <line x1="738" y1="82.0" x2="1024" y2="82.0" class="grid"/>
+  <text x="730" y="86.0" class="tiny" text-anchor="end">4</text>
+  <line x1="776" y1="177.0" x2="776" y2="177.0" stroke="#72B7B2" stroke-width="3"/>
+  <circle cx="776" cy="177.0" r="6" fill="#72B7B2" stroke="#222" stroke-width="0.7"/>
+  <text x="776" y="167.0" class="tiny" text-anchor="middle">+0.00</text>
+  <text x="776" y="292" class="tiny" text-anchor="middle">NEG</text>
+  <line x1="881" y1="82.0" x2="881" y2="177.0" stroke="#72B7B2" stroke-width="3"/>
+  <circle cx="881" cy="123.6" r="6" fill="#72B7B2" stroke="#222" stroke-width="0.7"/>
+  <text x="881" y="113.6" class="tiny" text-anchor="middle">+2.25</text>
+  <text x="881" y="292" class="tiny" text-anchor="middle">NEU</text>
+  <line x1="986" y1="82.0" x2="986" y2="177.0" stroke="#72B7B2" stroke-width="3"/>
+  <circle cx="986" cy="123.6" r="6" fill="#72B7B2" stroke="#222" stroke-width="0.7"/>
+  <text x="986" y="113.6" class="tiny" text-anchor="middle">+2.25</text>
+  <text x="986" y="292" class="tiny" text-anchor="middle">POS</text>
+  <polyline points="776,177.0 881,123.6 986,123.6" fill="none" stroke="#72B7B2" stroke-width="2"/>
+  <line x1="738" y1="485" x2="1024" y2="485" class="axis"/>
+  <line x1="738" y1="355" x2="738" y2="485" class="axis"/>
+  <line x1="738" y1="485.0" x2="1024" y2="485.0" class="grid"/>
+  <text x="730" y="489.0" class="tiny" text-anchor="end">0.0</text>
+  <line x1="738" y1="420.0" x2="1024" y2="420.0" class="grid"/>
+  <text x="730" y="424.0" class="tiny" text-anchor="end">0.5</text>
+  <line x1="738" y1="355.0" x2="1024" y2="355.0" class="grid"/>
+  <text x="730" y="359.0" class="tiny" text-anchor="end">1.0</text>
+  <rect x="755" y="485.0" width="42" height="0.0" fill="#E45756"/>
+  <text x="776" y="478.0" class="tiny" text-anchor="middle">0.00</text>
+  <text x="776" y="505" class="tiny" text-anchor="middle">NEG</text>
+  <rect x="860" y="468.8" width="42" height="16.2" fill="#E45756"/>
+  <text x="881" y="461.8" class="tiny" text-anchor="middle">0.12</text>
+  <text x="881" y="505" class="tiny" text-anchor="middle">NEU</text>
+  <rect x="965" y="485.0" width="42" height="0.0" fill="#E45756"/>
+  <text x="986" y="478.0" class="tiny" text-anchor="middle">0.00</text>
+  <text x="986" y="505" class="tiny" text-anchor="middle">POS</text>
+  <text x="22" y="177.0" class="label" transform="rotate(-90 22 177.0)" text-anchor="middle">Mean scalar rating</text>
+  <text x="22" y="420.0" class="label" transform="rotate(-90 22 420.0)" text-anchor="middle">Negative-word rate</text>
+  <text x="70" y="550" class="subtitle">Top: mean rating with observed range. Bottom: fraction selecting a negative emotion word.</text>
+</svg>

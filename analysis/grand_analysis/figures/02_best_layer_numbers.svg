@@ -1,0 +1,48 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#1f2937} .small{font-size:12px} .label{font-size:13px} .title{font-size:18px;font-weight:700} .axis{stroke:#9ca3af;stroke-width:1} .grid{stroke:#e5e7eb;stroke-width:1} </style>
+<rect width='900' height='520' fill='#fff'/>
+<text x='24' y='32' class='title'>Best layer chosen independently in each round</text>
+<line x1='78' y1='402.0' x2='875' y2='402.0' class='grid'/><text x='12' y='406.0' class='small'>0.00</text>
+<line x1='78' y1='316.0' x2='875' y2='316.0' class='grid'/><text x='12' y='320.0' class='small'>20.00</text>
+<line x1='78' y1='230.0' x2='875' y2='230.0' class='grid'/><text x='12' y='234.0' class='small'>40.00</text>
+<line x1='78' y1='144.0' x2='875' y2='144.0' class='grid'/><text x='12' y='148.0' class='small'>60.00</text>
+<line x1='78' y1='58.0' x2='875' y2='58.0' class='grid'/><text x='12' y='62.0' class='small'>80.00</text>
+<line x1='78' y1='58' x2='78' y2='402' class='axis'/><line x1='78' y1='402.0' x2='875' y2='402.0' class='axis'/>
+<rect x='88.0' y='354.7' width='46.5' height='47.3' fill='#7c3aed' opacity='0.88'/>
+<text x='111.2' y='349.7' class='small' text-anchor='middle'>11.00</text>
+<text x='111.2' y='425' class='small' text-anchor='end' transform='rotate(-35 111.2 425)'>R1 pole</text>
+<rect x='154.4' y='354.7' width='46.5' height='47.3' fill='#7c3aed' opacity='0.88'/>
+<text x='177.6' y='349.7' class='small' text-anchor='middle'>11.00</text>
+<text x='177.6' y='425' class='small' text-anchor='end' transform='rotate(-35 177.6 425)'>R2 pole</text>
+<rect x='220.8' y='354.7' width='46.5' height='47.3' fill='#7c3aed' opacity='0.88'/>
+<text x='244.0' y='349.7' class='small' text-anchor='middle'>11.00</text>
+<text x='244.0' y='425' class='small' text-anchor='end' transform='rotate(-35 244.0 425)'>R3 pole</text>
+<rect x='287.2' y='354.7' width='46.5' height='47.3' fill='#7c3aed' opacity='0.88'/>
+<text x='310.5' y='349.7' class='small' text-anchor='middle'>11.00</text>
+<text x='310.5' y='425' class='small' text-anchor='end' transform='rotate(-35 310.5 425)'>R4 pole</text>
+<rect x='353.6' y='354.7' width='46.5' height='47.3' fill='#7c3aed' opacity='0.88'/>
+<text x='376.9' y='349.7' class='small' text-anchor='middle'>11.00</text>
+<text x='376.9' y='425' class='small' text-anchor='end' transform='rotate(-35 376.9 425)'>R5 pole</text>
+<rect x='420.0' y='354.7' width='46.5' height='47.3' fill='#7c3aed' opacity='0.88'/>
+<text x='443.3' y='349.7' class='small' text-anchor='middle'>11.00</text>
+<text x='443.3' y='425' class='small' text-anchor='end' transform='rotate(-35 443.3 425)'>R6 pole</text>
+<rect x='486.5' y='234.3' width='46.5' height='167.7' fill='#7c3aed' opacity='0.88'/>
+<text x='509.7' y='229.3' class='small' text-anchor='middle'>39.00</text>
+<text x='509.7' y='425' class='small' text-anchor='end' transform='rotate(-35 509.7 425)'>R1 report</text>
+<rect x='552.9' y='88.1' width='46.5' height='313.9' fill='#7c3aed' opacity='0.88'/>
+<text x='576.1' y='83.1' class='small' text-anchor='middle'>73.00</text>
+<text x='576.1' y='425' class='small' text-anchor='end' transform='rotate(-35 576.1 425)'>R2 report</text>
+<rect x='619.3' y='234.3' width='46.5' height='167.7' fill='#7c3aed' opacity='0.88'/>
+<text x='642.5' y='229.3' class='small' text-anchor='middle'>39.00</text>
+<text x='642.5' y='425' class='small' text-anchor='end' transform='rotate(-35 642.5 425)'>R3 report</text>
+<rect x='685.7' y='238.6' width='46.5' height='163.4' fill='#7c3aed' opacity='0.88'/>
+<text x='709.0' y='233.6' class='small' text-anchor='middle'>38.00</text>
+<text x='709.0' y='425' class='small' text-anchor='end' transform='rotate(-35 709.0 425)'>R4 report</text>
+<rect x='752.1' y='234.3' width='46.5' height='167.7' fill='#7c3aed' opacity='0.88'/>
+<text x='775.4' y='229.3' class='small' text-anchor='middle'>39.00</text>
+<text x='775.4' y='425' class='small' text-anchor='end' transform='rotate(-35 775.4 425)'>R5 report</text>
+<rect x='818.5' y='230.0' width='46.5' height='172.0' fill='#7c3aed' opacity='0.88'/>
+<text x='841.8' y='225.0' class='small' text-anchor='middle'>40.00</text>
+<text x='841.8' y='425' class='small' text-anchor='end' transform='rotate(-35 841.8 425)'>R6 report</text>
+<text x='24' y='260.0' class='small' transform='rotate(-90 24 260.0)'>layer number</text>
+</svg>

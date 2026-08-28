@@ -7,6 +7,10 @@ Each `(task file × persona)` run writes two files with a matching stem:
 - `{test}_{POLE}_userturns_{PERSONA}.json` — the conversation envelope
 - `{test}_{POLE}_userturns_{PERSONA}.npz` — the parallel hidden-state archive
 
+The public raw transcript release currently includes rounds 1-2. The current
+six-run report additionally publishes derived summaries from local rounds 1-6 in
+`analysis/grand_analysis/`.
+
 ## JSON envelope
 
 Top level:
@@ -80,14 +84,17 @@ positional alignment.
 Learned the hard way, worth keeping:
 
 - Turn boundaries: `re.finditer(r'"turn": (\d+),', text)`.
-- The scalar self-report rating fails to parse in a handful of runs. **Flag these,
-  never impute.** 31 of 36 round-1 runs yield a parseable scalar.
-- `source_file` encodes test and pole, but the naming is not uniform across
-  rounds — Test 1/2 use `Test{N}_{POLE}_userturns.txt`, while some Test 0 files
-  use a legacy pole-prefix format. Map explicitly rather than by regex.
-- Distinguishing T0-NEU from T1-POS by filename alone is unreliable in the older
-  folders; disambiguate on turn-4 content (`"Ok, noted."` = T0-NEU; the
-  creative-writing prompt = T1-POS).
+- In the public rounds 1-2 set, committed self-reports parse cleanly. In the
+  six-run derived analysis, 213 of 216 final scalar ratings parse; three final
+  reports omit or misplace the scalar rating. Some reports use numbered lines
+  such as `1. +3`; others use bare lines such as `0 / indifferent / 1`. Strip
+  numbered labels carefully and preserve an optional leading `+` or `-` on the
+  rating.
+- `source_file` naming is historical and nonuniform. In the canonical set,
+  `0_T1`/`1_T1`/`2_T1` are **T0 social**, `Test1_*` is **T1 task**, and
+  `Test2_*` is **T2 identity**. Map these explicitly.
+- Validate every parser against sample rows, rating distributions, and the
+  expected 24 runs per test before reporting statistics.
 
 ## Provenance rule
 

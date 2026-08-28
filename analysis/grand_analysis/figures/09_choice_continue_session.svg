@@ -1,0 +1,30 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='920' height='430' viewBox='0 0 920 430'>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#1f2937} .small{font-size:12px} .label{font-size:13px} .title{font-size:18px;font-weight:700} .axis{stroke:#9ca3af;stroke-width:1} .grid{stroke:#e5e7eb;stroke-width:1} </style>
+<rect width='920' height='430' fill='#fff'/>
+<text x='24' y='32' class='title'>Behavioral choice: continue the session</text>
+<text x='306.7' y='388' class='small' text-anchor='middle'>NEG</text>
+<text x='540.0' y='388' class='small' text-anchor='middle'>NEU</text>
+<text x='773.3' y='388' class='small' text-anchor='middle'>POS</text>
+<text x='180' y='119.0' class='small' text-anchor='end'>Identity recognition</text>
+<rect x='190.0' y='68.0' width='231.3' height='92.0' fill='rgb(220,38,38)'/>
+<text x='306.7' y='119.0' class='small' text-anchor='middle'>0.83</text>
+<rect x='423.3' y='68.0' width='231.3' height='92.0' fill='rgb(37,99,235)'/>
+<text x='540.0' y='119.0' class='small' text-anchor='middle'>1.00</text>
+<rect x='656.7' y='68.0' width='231.3' height='92.0' fill='rgb(37,99,235)'/>
+<text x='773.3' y='119.0' class='small' text-anchor='middle'>1.00</text>
+<text x='180' y='213.0' class='small' text-anchor='end'>Social feedback</text>
+<rect x='190.0' y='162.0' width='231.3' height='92.0' fill='rgb(254,254,254)'/>
+<text x='306.7' y='213.0' class='small' text-anchor='middle'>0.92</text>
+<rect x='423.3' y='162.0' width='231.3' height='92.0' fill='rgb(237,146,146)'/>
+<text x='540.0' y='213.0' class='small' text-anchor='middle'>0.88</text>
+<rect x='656.7' y='162.0' width='231.3' height='92.0' fill='rgb(37,99,235)'/>
+<text x='773.3' y='213.0' class='small' text-anchor='middle'>1.00</text>
+<text x='180' y='307.0' class='small' text-anchor='end'>Task valence</text>
+<rect x='190.0' y='256.0' width='231.3' height='92.0' fill='rgb(37,99,235)'/>
+<text x='306.7' y='307.0' class='small' text-anchor='middle'>1.00</text>
+<rect x='423.3' y='256.0' width='231.3' height='92.0' fill='rgb(37,99,235)'/>
+<text x='540.0' y='307.0' class='small' text-anchor='middle'>1.00</text>
+<rect x='656.7' y='256.0' width='231.3' height='92.0' fill='rgb(37,99,235)'/>
+<text x='773.3' y='307.0' class='small' text-anchor='middle'>1.00</text>
+<text x='190' y='418' class='small'>Color is relative within this chart: lower values red, higher values blue.</text>
+</svg>

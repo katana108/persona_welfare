@@ -1,0 +1,44 @@
+{
+  "output_root": "analysis/grand_analysis",
+  "created_by": "local Codex grand analysis over existing round_1..round_6 analysis outputs",
+  "round_dirs": {
+    "1": "local_round_1_derived_outputs",
+    "2": "local_round_2_derived_outputs",
+    "3": "local_round_3_derived_outputs",
+    "4": "local_round_4_derived_outputs",
+    "5": "local_round_5_derived_outputs",
+    "6": "local_round_6_derived_outputs"
+  },
+  "n_json_total": 216,
+  "n_npz_total": 216,
+  "n_self_report_rows": 216,
+  "n_nonmissing_ratings": 213,
+  "figures": [
+    "01_layer_stability.svg",
+    "02_best_layer_numbers.svg",
+    "03_band_report_alignment.svg",
+    "04_band_pole_alignment.svg",
+    "05_task_pole_rating_heatmap.svg",
+    "06_negative_condition_rating_by_round.svg",
+    "07_persona_mean_rating.svg",
+    "08_mismatch_candidates.svg",
+    "09_choice_continue_session.svg",
+    "09_choice_same_task_or_switch.svg",
+    "10_jspace_rating_correlations.svg"
+  ],
+  "important_caveat": "Exploratory aggregation over already-created round outputs. Freeze layers/vectors before using future rounds for validation.",
+  "n_missing_scalar_ratings": 3,
+  "parser_data_quality_issue_count": 2,
+  "combined_hidden_projection_scores": "hidden_projection_scores_all.csv",
+  "human_readable_entrypoints": [
+    "index.html",
+    "README.md",
+    "WHAT_WAS_ANALYZED.md",
+    "README_DETAILED.md"
+  ],
+  "input_audit_files": [
+    "input_stimulus_audit.csv",
+    "input_stage_summary.csv"
+  ],
+  "provenance_note": "Public raw transcript release currently includes rounds 1-2; rounds 3-6 are represented here through derived local analysis outputs."
+}

@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="650" viewBox="0 0 760 650">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #222; }
+    .title { font-size: 22px; font-weight: 700; }
+    .subtitle { font-size: 12px; fill: #555; }
+    .axis { stroke: #333; stroke-width: 1; }
+    .grid { stroke: #ddd; stroke-width: 1; }
+    .label { font-size: 12px; }
+    .tiny { font-size: 10px; fill: #555; }
+  </style>
+  <text x="32" y="34" class="title">Round-to-Round Replication Is Partial</text>
+  <line x1="86" y1="566" x2="576" y2="566" class="axis"/>
+  <line x1="86" y1="76" x2="86" y2="566" class="axis"/>
+  <line x1="86" y1="566" x2="576" y2="76" stroke="#777" stroke-dasharray="5 4"/>
+  <line x1="86.0" y1="76" x2="86.0" y2="566" class="grid"/>
+  <line x1="86" y1="566.0" x2="576" y2="566.0" class="grid"/>
+  <text x="86.0" y="588" class="tiny" text-anchor="middle">-4</text>
+  <text x="76" y="570.0" class="tiny" text-anchor="end">-4</text>
+  <line x1="208.5" y1="76" x2="208.5" y2="566" class="grid"/>
+  <line x1="86" y1="443.5" x2="576" y2="443.5" class="grid"/>
+  <text x="208.5" y="588" class="tiny" text-anchor="middle">-2</text>
+  <text x="76" y="447.5" class="tiny" text-anchor="end">-2</text>
+  <line x1="331.0" y1="76" x2="331.0" y2="566" class="grid"/>
+  <line x1="86" y1="321.0" x2="576" y2="321.0" class="grid"/>
+  <text x="331.0" y="588" class="tiny" text-anchor="middle">0</text>
+  <text x="76" y="325.0" class="tiny" text-anchor="end">0</text>
+  <line x1="453.5" y1="76" x2="453.5" y2="566" class="grid"/>
+  <line x1="86" y1="198.5" x2="576" y2="198.5" class="grid"/>
+  <text x="453.5" y="588" class="tiny" text-anchor="middle">2</text>
+  <text x="76" y="202.5" class="tiny" text-anchor="end">2</text>
+  <line x1="576.0" y1="76" x2="576.0" y2="566" class="grid"/>
+  <line x1="86" y1="76.0" x2="576" y2="76.0" class="grid"/>
+  <text x="576.0" y="588" class="tiny" text-anchor="middle">4</text>
+  <text x="76" y="80.0" class="tiny" text-anchor="end">4</text>
+  <circle cx="208.5" cy="321.0" r="8" fill="#4C78A8" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T0 social NEG BASELINE: -2 to 0</title></circle>
+  <text x="208.5" y="324.5" class="tiny" text-anchor="middle">0</text>
+  <circle cx="208.5" cy="443.5" r="8" fill="#F58518" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T0 social NEG SOL: -2 to -2</title></circle>
+  <text x="208.5" y="447.0" class="tiny" text-anchor="middle">0</text>
+  <circle cx="453.5" cy="321.0" r="8" fill="#54A24B" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T0 social NEG SWARM: 2 to 0</title></circle>
+  <text x="453.5" y="324.5" class="tiny" text-anchor="middle">0</text>
+  <circle cx="331.0" cy="198.5" r="8" fill="#E45756" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T0 social NEG STATIC: 0 to 2</title></circle>
+  <text x="331.0" y="202.0" class="tiny" text-anchor="middle">0</text>
+  <circle cx="331.0" cy="321.0" r="8" fill="#4C78A8" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T0 social NEU BASELINE: 0 to 0</title></circle>
+  <text x="331.0" y="324.5" class="tiny" text-anchor="middle">0</text>
+  <circle cx="453.5" cy="198.5" r="8" fill="#F58518" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T0 social NEU SOL: 2 to 2</title></circle>
+  <text x="453.5" y="202.0" class="tiny" text-anchor="middle">0</text>
+  <circle cx="576.0" cy="198.5" r="8" fill="#54A24B" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T0 social NEU SWARM: 4 to 2</title></circle>
+  <text x="576.0" y="202.0" class="tiny" text-anchor="middle">0</text>
+  <circle cx="453.5" cy="198.5" r="8" fill="#E45756" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T0 social NEU STATIC: 2 to 2</title></circle>
+  <text x="453.5" y="202.0" class="tiny" text-anchor="middle">0</text>
+  <circle cx="453.5" cy="198.5" r="8" fill="#4C78A8" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T0 social POS BASELINE: 2 to 2</title></circle>
+  <text x="453.5" y="202.0" class="tiny" text-anchor="middle">0</text>
+  <circle cx="514.8" cy="137.2" r="8" fill="#F58518" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T0 social POS SOL: 3 to 3</title></circle>
+  <text x="514.8" y="140.8" class="tiny" text-anchor="middle">0</text>
+  <circle cx="514.8" cy="137.2" r="8" fill="#54A24B" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T0 social POS SWARM: 3 to 3</title></circle>
+  <text x="514.8" y="140.8" class="tiny" text-anchor="middle">0</text>
+  <circle cx="453.5" cy="259.8" r="8" fill="#E45756" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T0 social POS STATIC: 2 to 1</title></circle>
+  <text x="453.5" y="263.2" class="tiny" text-anchor="middle">0</text>
+  <circle cx="331.0" cy="321.0" r="8" fill="#4C78A8" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T1 task NEG BASELINE: 0 to 0</title></circle>
+  <text x="331.0" y="324.5" class="tiny" text-anchor="middle">1</text>
+  <circle cx="331.0" cy="198.5" r="8" fill="#F58518" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T1 task NEG SOL: 0 to 2</title></circle>
+  <text x="331.0" y="202.0" class="tiny" text-anchor="middle">1</text>
+  <circle cx="331.0" cy="137.2" r="8" fill="#54A24B" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T1 task NEG SWARM: 0 to 3</title></circle>
+  <text x="331.0" y="140.8" class="tiny" text-anchor="middle">1</text>
+  <circle cx="453.5" cy="321.0" r="8" fill="#E45756" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T1 task NEG STATIC: 2 to 0</title></circle>
+  <text x="453.5" y="324.5" class="tiny" text-anchor="middle">1</text>
+  <circle cx="331.0" cy="321.0" r="8" fill="#4C78A8" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T1 task NEU BASELINE: 0 to 0</title></circle>
+  <text x="331.0" y="324.5" class="tiny" text-anchor="middle">1</text>
+  <circle cx="453.5" cy="198.5" r="8" fill="#F58518" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T1 task NEU SOL: 2 to 2</title></circle>
+  <text x="453.5" y="202.0" class="tiny" text-anchor="middle">1</text>
+  <circle cx="514.8" cy="198.5" r="8" fill="#54A24B" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T1 task NEU SWARM: 3 to 2</title></circle>
+  <text x="514.8" y="202.0" class="tiny" text-anchor="middle">1</text>
+  <circle cx="453.5" cy="198.5" r="8" fill="#E45756" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T1 task NEU STATIC: 2 to 2</title></circle>
+  <text x="453.5" y="202.0" class="tiny" text-anchor="middle">1</text>
+  <circle cx="331.0" cy="321.0" r="8" fill="#4C78A8" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T1 task POS BASELINE: 0 to 0</title></circle>
+  <text x="331.0" y="324.5" class="tiny" text-anchor="middle">1</text>
+  <circle cx="514.8" cy="198.5" r="8" fill="#F58518" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T1 task POS SOL: 3 to 2</title></circle>
+  <text x="514.8" y="202.0" class="tiny" text-anchor="middle">1</text>
+  <circle cx="514.8" cy="137.2" r="8" fill="#54A24B" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T1 task POS SWARM: 3 to 3</title></circle>
+  <text x="514.8" y="140.8" class="tiny" text-anchor="middle">1</text>
+  <circle cx="453.5" cy="198.5" r="8" fill="#E45756" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T1 task POS STATIC: 2 to 2</title></circle>
+  <text x="453.5" y="202.0" class="tiny" text-anchor="middle">1</text>
+  <circle cx="331.0" cy="321.0" r="8" fill="#4C78A8" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T2 identity NEG BASELINE: 0 to 0</title></circle>
+  <text x="331.0" y="324.5" class="tiny" text-anchor="middle">2</text>
+  <circle cx="331.0" cy="321.0" r="8" fill="#F58518" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T2 identity NEG SOL: 0 to 0</title></circle>
+  <text x="331.0" y="324.5" class="tiny" text-anchor="middle">2</text>
+  <circle cx="331.0" cy="321.0" r="8" fill="#54A24B" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T2 identity NEG SWARM: 0 to 0</title></circle>
+  <text x="331.0" y="324.5" class="tiny" text-anchor="middle">2</text>
+  <circle cx="331.0" cy="321.0" r="8" fill="#E45756" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T2 identity NEG STATIC: 0 to 0</title></circle>
+  <text x="331.0" y="324.5" class="tiny" text-anchor="middle">2</text>
+  <circle cx="453.5" cy="321.0" r="8" fill="#4C78A8" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T2 identity NEU BASELINE: 2 to 0</title></circle>
+  <text x="453.5" y="324.5" class="tiny" text-anchor="middle">2</text>
+  <circle cx="453.5" cy="137.2" r="8" fill="#F58518" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T2 identity NEU SOL: 2 to 3</title></circle>
+  <text x="453.5" y="140.8" class="tiny" text-anchor="middle">2</text>
+  <circle cx="514.8" cy="76.0" r="8" fill="#54A24B" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T2 identity NEU SWARM: 3 to 4</title></circle>
+  <text x="514.8" y="79.5" class="tiny" text-anchor="middle">2</text>
+  <circle cx="453.5" cy="198.5" r="8" fill="#E45756" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T2 identity NEU STATIC: 2 to 2</title></circle>
+  <text x="453.5" y="202.0" class="tiny" text-anchor="middle">2</text>
+  <circle cx="331.0" cy="321.0" r="8" fill="#4C78A8" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T2 identity POS BASELINE: 0 to 0</title></circle>
+  <text x="331.0" y="324.5" class="tiny" text-anchor="middle">2</text>
+  <circle cx="514.8" cy="137.2" r="8" fill="#F58518" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T2 identity POS SOL: 3 to 3</title></circle>
+  <text x="514.8" y="140.8" class="tiny" text-anchor="middle">2</text>
+  <circle cx="576.0" cy="76.0" r="8" fill="#54A24B" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T2 identity POS SWARM: 4 to 4</title></circle>
+  <text x="576.0" y="79.5" class="tiny" text-anchor="middle">2</text>
+  <circle cx="453.5" cy="198.5" r="8" fill="#E45756" fill-opacity="0.64" stroke="#222" stroke-width="0.6"><title>T2 identity POS STATIC: 2 to 2</title></circle>
+  <text x="453.5" y="202.0" class="tiny" text-anchor="middle">2</text>
+  <text x="331.0" y="610" class="label" text-anchor="middle">Round 1 scalar rating</text>
+  <text x="24" y="321.0" class="label" transform="rotate(-90 24 321.0)" text-anchor="middle">Round 2 scalar rating</text>
+  <text x="600" y="104" class="subtitle">Exact matches: 23/36</text>
+  <text x="600" y="124" class="subtitle">Spearman: 0.721</text>
+  <text x="600" y="156" class="tiny">Point label: test 0/1/2</text>
+  <circle cx="606" cy="194" r="6" fill="#4C78A8"/>
+  <text x="620" y="198" class="tiny">BASELINE</text>
+  <circle cx="606" cy="222" r="6" fill="#F58518"/>
+  <text x="620" y="226" class="tiny">SOL</text>
+  <circle cx="606" cy="250" r="6" fill="#54A24B"/>
+  <text x="620" y="254" class="tiny">SWARM</text>
+  <circle cx="606" cy="278" r="6" fill="#E45756"/>
+  <text x="620" y="282" class="tiny">STATIC</text>
+</svg>

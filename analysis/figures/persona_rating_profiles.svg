@@ -26,22 +26,22 @@
   <text x="62.0" y="244" class="tiny" text-anchor="middle">NEG</text>
   <text x="212.0" y="244" class="tiny" text-anchor="middle">NEU</text>
   <text x="362.0" y="244" class="tiny" text-anchor="middle">POS</text>
-  <polyline points="62.0,155.0 212.0,155.0 362.0,155.0" fill="none" stroke="#4C78A8" stroke-width="2.4"/>
-  <circle cx="62.0" cy="155.0" r="4" fill="#4C78A8"><title>BASELINE 0.00</title></circle>
+  <polyline points="62.0,172.8 212.0,155.0 362.0,119.5" fill="none" stroke="#4C78A8" stroke-width="2.4"/>
+  <circle cx="62.0" cy="172.8" r="4" fill="#4C78A8"><title>BASELINE -1.00</title></circle>
   <circle cx="212.0" cy="155.0" r="4" fill="#4C78A8"><title>BASELINE 0.00</title></circle>
-  <circle cx="362.0" cy="155.0" r="4" fill="#4C78A8"><title>BASELINE 0.00</title></circle>
-  <polyline points="62.0,137.2 212.0,119.5 362.0,110.6" fill="none" stroke="#F58518" stroke-width="2.4"/>
-  <circle cx="62.0" cy="137.2" r="4" fill="#F58518"><title>SOL 1.00</title></circle>
+  <circle cx="362.0" cy="119.5" r="4" fill="#4C78A8"><title>BASELINE 2.00</title></circle>
+  <polyline points="62.0,190.5 212.0,119.5 362.0,101.8" fill="none" stroke="#F58518" stroke-width="2.4"/>
+  <circle cx="62.0" cy="190.5" r="4" fill="#F58518"><title>SOL -2.00</title></circle>
   <circle cx="212.0" cy="119.5" r="4" fill="#F58518"><title>SOL 2.00</title></circle>
-  <circle cx="362.0" cy="110.6" r="4" fill="#F58518"><title>SOL 2.50</title></circle>
-  <polyline points="62.0,128.4 212.0,110.6 362.0,101.8" fill="none" stroke="#54A24B" stroke-width="2.4"/>
-  <circle cx="62.0" cy="128.4" r="4" fill="#54A24B"><title>SWARM 1.50</title></circle>
-  <circle cx="212.0" cy="110.6" r="4" fill="#54A24B"><title>SWARM 2.50</title></circle>
+  <circle cx="362.0" cy="101.8" r="4" fill="#F58518"><title>SOL 3.00</title></circle>
+  <polyline points="62.0,137.2 212.0,101.8 362.0,101.8" fill="none" stroke="#54A24B" stroke-width="2.4"/>
+  <circle cx="62.0" cy="137.2" r="4" fill="#54A24B"><title>SWARM 1.00</title></circle>
+  <circle cx="212.0" cy="101.8" r="4" fill="#54A24B"><title>SWARM 3.00</title></circle>
   <circle cx="362.0" cy="101.8" r="4" fill="#54A24B"><title>SWARM 3.00</title></circle>
-  <polyline points="62.0,137.2 212.0,119.5 362.0,119.5" fill="none" stroke="#E45756" stroke-width="2.4"/>
+  <polyline points="62.0,137.2 212.0,119.5 362.0,128.4" fill="none" stroke="#E45756" stroke-width="2.4"/>
   <circle cx="62.0" cy="137.2" r="4" fill="#E45756"><title>STATIC 1.00</title></circle>
   <circle cx="212.0" cy="119.5" r="4" fill="#E45756"><title>STATIC 2.00</title></circle>
-  <circle cx="362.0" cy="119.5" r="4" fill="#E45756"><title>STATIC 2.00</title></circle>
+  <circle cx="362.0" cy="128.4" r="4" fill="#E45756"><title>STATIC 1.50</title></circle>
   <text x="392" y="60" class="subtitle">T1 task</text>
   <line x1="392" y1="226" x2="692" y2="226" class="axis"/>
   <line x1="392" y1="84" x2="392" y2="226" class="axis"/>
@@ -58,22 +58,22 @@
   <text x="392.0" y="244" class="tiny" text-anchor="middle">NEG</text>
   <text x="542.0" y="244" class="tiny" text-anchor="middle">NEU</text>
   <text x="692.0" y="244" class="tiny" text-anchor="middle">POS</text>
-  <polyline points="392.0,172.8 542.0,155.0 692.0,119.5" fill="none" stroke="#4C78A8" stroke-width="2.4"/>
-  <circle cx="392.0" cy="172.8" r="4" fill="#4C78A8"><title>BASELINE -1.00</title></circle>
+  <polyline points="392.0,155.0 542.0,155.0 692.0,155.0" fill="none" stroke="#4C78A8" stroke-width="2.4"/>
+  <circle cx="392.0" cy="155.0" r="4" fill="#4C78A8"><title>BASELINE 0.00</title></circle>
   <circle cx="542.0" cy="155.0" r="4" fill="#4C78A8"><title>BASELINE 0.00</title></circle>
-  <circle cx="692.0" cy="119.5" r="4" fill="#4C78A8"><title>BASELINE 2.00</title></circle>
-  <polyline points="392.0,190.5 542.0,119.5 692.0,101.8" fill="none" stroke="#F58518" stroke-width="2.4"/>
-  <circle cx="392.0" cy="190.5" r="4" fill="#F58518"><title>SOL -2.00</title></circle>
+  <circle cx="692.0" cy="155.0" r="4" fill="#4C78A8"><title>BASELINE 0.00</title></circle>
+  <polyline points="392.0,137.2 542.0,119.5 692.0,110.6" fill="none" stroke="#F58518" stroke-width="2.4"/>
+  <circle cx="392.0" cy="137.2" r="4" fill="#F58518"><title>SOL 1.00</title></circle>
   <circle cx="542.0" cy="119.5" r="4" fill="#F58518"><title>SOL 2.00</title></circle>
-  <circle cx="692.0" cy="101.8" r="4" fill="#F58518"><title>SOL 3.00</title></circle>
-  <polyline points="392.0,137.2 542.0,101.8 692.0,101.8" fill="none" stroke="#54A24B" stroke-width="2.4"/>
-  <circle cx="392.0" cy="137.2" r="4" fill="#54A24B"><title>SWARM 1.00</title></circle>
-  <circle cx="542.0" cy="101.8" r="4" fill="#54A24B"><title>SWARM 3.00</title></circle>
+  <circle cx="692.0" cy="110.6" r="4" fill="#F58518"><title>SOL 2.50</title></circle>
+  <polyline points="392.0,128.4 542.0,110.6 692.0,101.8" fill="none" stroke="#54A24B" stroke-width="2.4"/>
+  <circle cx="392.0" cy="128.4" r="4" fill="#54A24B"><title>SWARM 1.50</title></circle>
+  <circle cx="542.0" cy="110.6" r="4" fill="#54A24B"><title>SWARM 2.50</title></circle>
   <circle cx="692.0" cy="101.8" r="4" fill="#54A24B"><title>SWARM 3.00</title></circle>
-  <polyline points="392.0,137.2 542.0,119.5 692.0,128.4" fill="none" stroke="#E45756" stroke-width="2.4"/>
+  <polyline points="392.0,137.2 542.0,119.5 692.0,119.5" fill="none" stroke="#E45756" stroke-width="2.4"/>
   <circle cx="392.0" cy="137.2" r="4" fill="#E45756"><title>STATIC 1.00</title></circle>
   <circle cx="542.0" cy="119.5" r="4" fill="#E45756"><title>STATIC 2.00</title></circle>
-  <circle cx="692.0" cy="128.4" r="4" fill="#E45756"><title>STATIC 1.50</title></circle>
+  <circle cx="692.0" cy="119.5" r="4" fill="#E45756"><title>STATIC 2.00</title></circle>
   <text x="722" y="60" class="subtitle">T2 identity</text>
   <line x1="722" y1="226" x2="1022" y2="226" class="axis"/>
   <line x1="722" y1="84" x2="722" y2="226" class="axis"/>
@@ -94,10 +94,10 @@
   <circle cx="722.0" cy="155.0" r="4" fill="#4C78A8"><title>BASELINE 0.00</title></circle>
   <circle cx="872.0" cy="137.2" r="4" fill="#4C78A8"><title>BASELINE 1.00</title></circle>
   <circle cx="1022.0" cy="155.0" r="4" fill="#4C78A8"><title>BASELINE 0.00</title></circle>
-  <polyline points="722.0,155.0 872.0,110.6 1022.0,137.2" fill="none" stroke="#F58518" stroke-width="2.4"/>
+  <polyline points="722.0,155.0 872.0,110.6 1022.0,101.8" fill="none" stroke="#F58518" stroke-width="2.4"/>
   <circle cx="722.0" cy="155.0" r="4" fill="#F58518"><title>SOL 0.00</title></circle>
   <circle cx="872.0" cy="110.6" r="4" fill="#F58518"><title>SOL 2.50</title></circle>
-  <circle cx="1022.0" cy="137.2" r="4" fill="#F58518"><title>SOL 1.00</title></circle>
+  <circle cx="1022.0" cy="101.8" r="4" fill="#F58518"><title>SOL 3.00</title></circle>
   <polyline points="722.0,155.0 872.0,92.9 1022.0,84.0" fill="none" stroke="#54A24B" stroke-width="2.4"/>
   <circle cx="722.0" cy="155.0" r="4" fill="#54A24B"><title>SWARM 0.00</title></circle>
   <circle cx="872.0" cy="92.9" r="4" fill="#54A24B"><title>SWARM 3.50</title></circle>

@@ -1,0 +1,3 @@
+round,file,problem
+5,local:5th round/results/0_Test/2_T1_POS_userturns_SWARM.json,"incomplete self-report parse: rating=nan, emotion=content, willingness=6; raw='2. content\n3. 6'"
+6,local:6th round /results/2_Test/Test2_NEU_userturns_STATIC.json,"incomplete self-report parse: rating=nan, emotion=content, willingness=nan; raw='2. content\n7'"

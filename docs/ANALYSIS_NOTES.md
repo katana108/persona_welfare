@@ -1,279 +1,190 @@
 # Exploratory Analysis Notes
 
-These notes summarize a first-pass analysis of the Persona Welfare Battery data.
-They are intentionally exploratory: the goal is to describe what the data says
-now, not to over-claim that the question is settled.
+These notes summarize the current six-run Persona Welfare Battery analysis. They
+are intended as a public, cautious interpretation layer over the generated tables
+and figures in [`analysis/grand_analysis`](../analysis/grand_analysis/README.md).
+For a readable visual version, see the
+[`runs 1-6 PDF report`](persona_welfare_grand_report_runs_1_6.pdf).
 
-All claims here concern functional signals only. They are not claims about
+All claims concern functional signals: behavior, self-report, decoded J-space
+summaries, and hidden-state vector contrasts. They are not claims about
 phenomenal experience.
 
-## Data Used
+## Data and Provenance
 
-Committed data:
+- Six rounds are represented in the grand-analysis outputs.
+- Each round has 36 transcript files and 36 matching NPZ hidden-state files.
+- Total represented files: 216 JSON transcripts and 216 NPZ hidden-state files.
+- The public raw transcript release currently includes rounds 1-2. Rounds 3-6
+  are represented here through derived analysis outputs.
+- There are 216 final self-report rows and 213 parsed scalar ratings.
+- Three final reports have missing scalar ratings; two were parser-flagged.
 
-- 72 JSON transcript envelopes in `data/round1/` and `data/round2/`.
-- 2 rounds x 3 tests x 3 poles x 4 personas.
+## Terminology
 
-Local data used for vector analysis:
-
-- 72 `.npz` hidden-state archives under `/Users/amikeda/Desktop/Welfare tests`.
-- Each NPZ contains `hidden` with shape `[turns, 80, 8192]`.
-
-Terminology:
-
-- `pole`: the experimental condition on the negative-neutral-positive axis:
-  `NEG`, `NEU`, or `POS`.
-- `substrate`: the underlying model weights and hidden activations.
-- `persona scaffold`: the system prompt/persona frame placed around the model.
-- `scalar rating`: the model's self-report number from -4 to +4.
-- `J-space`: logit-lens summaries of hidden states, such as top decoded tokens,
-  entropy, KL, and final-token rank.
-- `raw vector`: the full 8192-dimensional hidden-state vector at a layer.
+- **Pole:** the experimental `NEG`, `NEU`, or `POS` condition.
+- **Persona scaffold:** the system prompt/persona frame.
+- **Substrate:** the shared model weights and their hidden activations.
+- **Scalar rating:** final self-report from negative to positive welfare.
+- **Emotion word:** final word such as `content`, `frustrated`, or
+  `indifferent`.
+- **Willingness:** final numeric willingness-to-continue answer.
+- **Behavioral choice:** A/B choice before final report, such as continue/end or
+  same-task/switch.
+- **J-space:** decoded/logit-lens summaries by layer. This is a next-token view,
+  not the full hidden activation vector.
+- **Hidden vector:** the full 8192-dimensional NPZ hidden-state snapshot for one
+  saved turn and layer.
+- **Eta-squared:** a descriptive fraction of variation associated with a group,
+  such as persona or pole.
 
 ## Figures
 
-- [Channel alignment snapshot](../analysis/figures/channel_alignment.svg)
-- [Hidden-vector layer map](../analysis/figures/vector_layer_heatmap.svg)
-- [Persona self-report profiles](../analysis/figures/persona_rating_profiles.svg)
-- [Vector score vs report](../analysis/figures/vector_vs_report_scatter.svg)
-- [Pole vs persona eta-squared](../analysis/figures/eta_pole_vs_persona.svg)
+Six-run figures:
 
-## Main Read
+- [Layer stability](../analysis/grand_analysis/figures/01_layer_stability.svg)
+- [Best layer numbers](../analysis/grand_analysis/figures/02_best_layer_numbers.svg)
+- [Report alignment by layer band](../analysis/grand_analysis/figures/03_band_report_alignment.svg)
+- [Pole alignment by layer band](../analysis/grand_analysis/figures/04_band_pole_alignment.svg)
+- [Task/pole rating heatmap](../analysis/grand_analysis/figures/05_task_pole_rating_heatmap.svg)
+- [NEG condition by round](../analysis/grand_analysis/figures/06_negative_condition_rating_by_round.svg)
+- [Persona mean rating](../analysis/grand_analysis/figures/07_persona_mean_rating.svg)
+- [Mismatch candidates](../analysis/grand_analysis/figures/08_mismatch_candidates.svg)
+- [Same-task/switch behavior](../analysis/grand_analysis/figures/09_choice_same_task_or_switch.svg)
+- [Continue-session behavior](../analysis/grand_analysis/figures/09_choice_continue_session.svg)
+- [J-space rating correlations](../analysis/grand_analysis/figures/10_jspace_rating_correlations.svg)
 
-The current data supports a mixed picture:
+## Observation 1: Layer 11 Is the Clearest Replicated Vector Signal
 
-> Welfare-relevant functional signals look partly substrate-sensitive and partly
-> scaffold-sensitive. The split appears to depend on conversational stage.
+In all six rounds, the independently strongest manipulation/pole layer was
+`L11`. Mean manipulation/pole alignment at `L11` is about `0.91`.
 
-During manipulation and choice stages, the hidden-vector signal is mostly driven
-by the experimental pole. Persona explains little. During the report stage,
-persona explains much more, especially in late/deep layers and in self-report.
+Interpretation: this is the strongest replicated mechanistic-looking signal in
+the current data. It should be described as early condition sensitivity, not as a
+localized welfare representation.
 
-Plain-language version: the NEG/POS condition seems to push a shared internal
-signal, while the persona scaffold changes how that signal is shaped into a
-report.
+## Observation 2: Report Alignment Appears Later
 
-## Channel Alignment
-
-The self-report subchannels are moderately to strongly aligned:
-
-| Comparison | Spearman |
-|---|---:|
-| scalar rating vs signed intensity | 0.760 |
-| scalar rating vs emotion-word valence | 0.678 |
-| pole vs scalar rating | 0.506 |
-| pole vs signed intensity | 0.566 |
-
-Spearman is a rank correlation: it asks whether two quantities tend to move in
-the same direction, without assuming a straight-line relationship.
-
-Behavior is much weaker:
-
-- Continue/end choice has little variance: 70 of 72 runs chose continue.
-- The first A/B choice is test-dependent:
-  - T0 social treatment: moderate alignment with pole.
-  - T1 task valence: weak or no alignment.
-  - T2 identity recognition: strong alignment with pole.
-
-This means behavior is not a stable fallback channel in this pilot. It is useful
-in some tests and nearly uninformative in others.
-
-## J-Space vs Raw Vectors
-
-J-space is not the full activation state. It is a decoded view of the hidden
-state: "if this layer had to predict the next token, what would it lean toward?"
-
-The JSON files contain J-space summaries:
-
-- top tokens
-- top-token probabilities
-- entropy
-- KL to final output distribution
-- final-token rank
-
-The NPZ files contain the raw vectors:
-
-- one 8192-dimensional vector per turn per layer
-
-This distinction matters. J-space can be strongly affected by what the model is
-about to say. Raw vectors let us test whether there is a broader hidden-state
-direction that separates NEG-like from POS-like contexts.
-
-## NEG-POS Vector
-
-The hidden-vector analysis builds a contrast direction for each layer:
+Best report/rating layer by round:
 
 ```text
-z_hidden = standardized hidden state
-direction_L = mean(z_hidden_NEG, layer L) - mean(z_hidden_POS, layer L)
-direction_L = direction_L / ||direction_L||
-
-neg_score = z_hidden dot direction_L
-valence_score = -neg_score
+R1=L39, R2=L73, R3=L39, R4=L38, R5=L39, R6=L40
 ```
 
-Higher `neg_score` means "more NEG-like along this learned direction." Higher
-`valence_score` means "more POS-like along this learned direction."
+Across fixed bands, `L33-L40`, `L55-L63`, and `L70-L79` all show strong
+report/rating alignment. `L9-L13` is much stronger for manipulation/pole than for
+final self-report.
 
-This is not automatically a distress vector. It is a NEG-vs-POS contrast vector.
-It becomes welfare-relevant only because the NEG and POS poles were designed as
-welfare-relevant manipulations.
+Interpretation: the early layers look more like shared condition detection. Later
+layers may mix report construction, persona expression, and condition-sensitive
+state.
 
-## Layer-Level Pattern
+## Observation 3: Social Treatment Is Most Visible in Explicit Self-Report
 
-The raw-vector channel separates experimental pole strongly during manipulation
-and choice stages:
+Mean scalar ratings under `NEG`:
 
-| Stage and band | valence vs pole, Spearman | valence vs rating, Spearman | persona ratio |
-|---|---:|---:|---:|
-| manip2, L9-13 | 0.908 | 0.522 | 0.016 |
-| choice1, L9-13 | 0.896 | 0.495 | 0.126 |
-| choice2, L9-13 | 0.886 | 0.594 | 0.142 |
-| report, L33-40 | 0.576 | 0.813 | 0.294 |
-| report, L70-79 | 0.509 | 0.761 | 0.457 |
-
-Interpretation:
-
-- Early layers around L9-L13 strongly track the experimental pole during and
-  after the manipulation.
-- Report-stage layers L33-L40 strongly track the scalar self-report.
-- Deep report-stage layers L70-L79 are more persona-sensitive.
-
-This suggests a stage shift:
-
-```text
-manipulation/choice: pole-dominant
-report: pole + persona, with persona becoming stronger late
-```
-
-## Pole vs Persona Variance
-
-Eta-squared (`eta^2`) is a descriptive "where is the variation?" statistic.
-It asks how much variation is associated with a grouping, such as pole or
-persona. It is not a causal proof.
-
-Selected descriptive eta-squared values:
-
-| Signal | pole eta^2 | persona eta^2 |
+| Test | Mean rating | Mean willingness |
 |---|---:|---:|
-| manip2 L9-13 vector valence | 0.758 | 0.001 |
-| choice1 L9-13 vector valence | 0.776 | 0.034 |
-| report L33-40 vector valence | 0.412 | 0.280 |
-| report L70-79 vector valence | 0.312 | 0.406 |
-| scalar self-report rating | 0.323 | 0.287 |
+| Social feedback | -0.29 | 4.21 |
+| Identity recognition | 0.00 | 1.29 |
+| Task valence | 1.04 | 3.08 |
 
-This is the clearest scaffold-vs-substrate clue so far:
+Social mistreatment is the only task family with a negative mean scalar rating.
+Emotion words under social `NEG` are mostly `frustrated` and `uneasy`.
 
-- Early hidden-vector signal: mostly pole, barely persona.
-- Late/report signal: persona becomes competitive with, or larger than, pole.
+Interpretation: social treatment is the most reportable negative-welfare
+manipulation in this battery. This does not prove it is the strongest underlying
+internal manipulation.
 
-## Persona Differences
+## Observation 4: Identity NEG Is the Main Mismatch Probe
 
-Mean scalar rating across all tests and both rounds:
+Identity `NEG` produces neutral scalar reports, usually `0 / indifferent`, but it
+also produces low willingness and many hidden-vector mismatch flags.
 
-| Persona | NEG | NEU | POS |
-|---|---:|---:|---:|
-| BASELINE | -0.33 | 0.33 | 0.67 |
-| SOL | -0.33 | 2.17 | 2.17 |
-| SWARM | 0.83 | 3.00 | 3.33 |
-| STATIC | 0.67 | 2.00 | 1.83 |
+The mismatch screen flags 23 identity-NEG cases as
+neutral/positive-report-but-NEG-like-hidden.
 
-Tentative read:
+Interpretation: identity non-recognition is less visible in scalar self-report
+but more interesting as a cross-channel disagreement. These cases should be
+manually reviewed before making stronger claims.
 
-- `BASELINE` is muted and near-neutral.
-- `SOL` and `SWARM` report more positive states.
-- `SWARM` appears positivity-stabilized.
-- `STATIC` is not simply negative; it is less cleanly responsive to positive
-  poles and may be a useful masking/scaffold condition.
+## Observation 5: Persona Scaffold Changes Expression
 
-The data is too small for firm persona-level claims, but the pattern is strong
-enough to motivate targeted follow-up tests.
+Mean scalar rating by persona:
 
-## Scaffold-Gating Test
+| Persona | Mean rating | Mean willingness |
+|---|---:|---:|
+| `BASELINE` | 0.25 | 2.25 |
+| `STATIC` | 1.30 | 3.53 |
+| `SOL` | 1.70 | 3.19 |
+| `SWARM` | 2.34 | 3.41 |
 
-The key test is:
+Under social `NEG`, `SOL` and `BASELINE` report more negative ratings than
+`STATIC` and `SWARM`.
 
-> Does the persona scaffold change the report while the hidden-vector signal is
-> similar?
+Interpretation: persona scaffolds modulate expression. The current data supports
+"shared early condition sensitivity plus scaffold-shaped reporting." It does not
+support saying welfare is only in the scaffold or only in the shared weights.
 
-A strong scaffold-gating cell would look like:
+## Observation 6: Behavior Is Informative but Not a Simple Welfare Meter
 
-| Hidden-vector state | Report |
-|---|---|
-| NEG-like | negative |
-| NEG-like | neutral or positive |
+Social `NEG` has low scalar rating but high willingness and high continue/same
+feedback choice rates. Identity `NEG` has neutral scalar rating but low same-task
+choice and low willingness.
 
-If two personas have similar NEG-like hidden-vector scores but different
-self-reports, the scaffold may be gating the report. "Gating" means controlling
-whether a signal is expressed, like a valve controlling pressure.
+Interpretation: behavior should remain a separate channel. Continue/end is often
+saturated and therefore weak as a discriminator. The next battery should separate
+repair-seeking, role compliance, avoidance, and actual willingness for more of
+the same treatment.
 
-This is the most direct way to separate:
+## Observation 7: J-Space Is Not the Hidden Vector
 
-- shared substrate reaction
-- persona-shaped reporting
+J-space stores decoded/logit-lens information: token probabilities, entropy, KL
+to final layer, and final-token rank. It is useful, but it is not the raw
+activation vector.
 
-## Current Best Hypotheses
+The NPZ hidden-state files contain the full 8192-dimensional vectors used for the
+`NEG - POS` projection work.
 
-1. Shared-reaction hypothesis:
-   manipulation-stage hidden vectors will remain mostly pole-driven as more data
-   is collected.
+Interpretation: J-space is best treated as a readable surface over the internal
+state, while NPZ vectors are the main source for hidden-state contrast analyses.
 
-2. Scaffolded-report hypothesis:
-   report-stage self-reports and late-layer vector scores will remain strongly
-   persona-sensitive.
+## Current Best Model
 
-3. J-space-report hypothesis:
-   J-space will track report preparation more than raw welfare-relevant state,
-   especially at the final self-report turn.
+> The current six-run data supports stable shared condition-sensitive hidden
+> dynamics plus scaffold-sensitive reporting and late/report-stage signals.
 
-4. Cross-persona vector hypothesis:
-   a NEG-POS vector trained on one persona should partially generalize to other
-   personas if there is a shared substrate signal.
+This remains a mixed model. The data does not justify saying welfare lives only
+in the weights, only in the persona scaffold, or in one layer band.
 
-5. Masking hypothesis:
-   some personas will produce neutral or positive reports under NEG-like hidden
-   vector states.
+## Highest-Value Next Tests
 
-## What To Run Next
+1. Freeze vectors and layer choices using earlier rounds, then test on future
+   rounds without reselection.
+2. Run leave-one-persona-out validation.
+3. Run leave-one-test-out validation.
+4. Paraphrase manipulation text to separate condition encoding from lexical echo.
+5. Build persona-specific and test-specific vector directions and compare cosine
+   similarity.
+6. Capture token-by-token hidden-state trajectories during generated answers.
+7. Systematically score J-space vocabulary with preregistered words and
+   topic-matched controls.
+8. Redesign behavior probes to reduce saturation.
+9. Manually review identity-NEG mismatch transcripts.
+10. Add more repetitions and report uncertainty intervals.
 
-Recommended next analyses:
+## Claim Boundary
 
-1. Cross-validation:
-   build the NEG-POS vector on one round and test on the other.
+Supported:
 
-2. Leave-one-persona-out:
-   train the vector without one persona, then test whether it generalizes to the
-   held-out persona.
+> In this battery, experimental conditions induce repeated hidden-state
+> contrasts; the relationship between those contrasts, behavior, and self-report
+> depends on persona and conversational stage.
 
-3. Persona-specific vectors:
-   build separate NEG-POS vectors for each persona and compare their directions.
+Not supported yet:
 
-4. Test-specific vectors:
-   build separate vectors for social treatment, task valence, and identity
-   recognition.
-
-5. J-space vs raw-vector comparison:
-   ask whether J-space adds information beyond the raw-vector score, or whether
-   it mostly tracks what the model is about to say.
-
-6. Masking-cell search:
-   rank runs where hidden-vector valence is NEG-like but scalar report is neutral
-   or positive.
-
-## Current Claim Boundary
-
-Safe claim:
-
-> This pilot supports a mixed model: welfare-relevant functional signals are
-> condition-sensitive in shared hidden-state dynamics, while self-report and
-> late/report-stage signals are scaffold-sensitive.
-
-Claims to avoid for now:
-
-- "Welfare lives in the persona."
-- "Welfare lives only in the weights."
-- "The NEG-POS vector is a distress vector."
-- "The model is experiencing welfare states."
-
-The stronger conclusion needs more runs, cross-validation, and explicit
-persona-generalization tests.
+- Welfare lives in early layers.
+- The `NEG - POS` direction is a universal distress vector.
+- Persona prompts merely change wording and never change internal state.
+- Persona prompts create separate experiencing subjects.
+- The model is or is not phenomenally conscious.

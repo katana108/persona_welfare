@@ -1,0 +1,120 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='980' height='520' viewBox='0 0 980 520'>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#1f2937} .small{font-size:12px} .label{font-size:13px} .title{font-size:18px;font-weight:700} .axis{stroke:#9ca3af;stroke-width:1} .grid{stroke:#e5e7eb;stroke-width:1} </style>
+<rect width='980' height='520' fill='#ffffff'/>
+<text x='24' y='32' class='title'>Decoded J-space summaries: association with final rating</text>
+<line x1='70' y1='458.0' x2='955' y2='458.0' class='grid'/><text x='14' y='462.0' class='small'>0.00</text>
+<line x1='70' y1='358.0' x2='955' y2='358.0' class='grid'/><text x='14' y='362.0' class='small'>0.24</text>
+<line x1='70' y1='258.0' x2='955' y2='258.0' class='grid'/><text x='14' y='262.0' class='small'>0.48</text>
+<line x1='70' y1='158.0' x2='955' y2='158.0' class='grid'/><text x='14' y='162.0' class='small'>0.72</text>
+<line x1='70' y1='58.0' x2='955' y2='58.0' class='grid'/><text x='14' y='62.0' class='small'>0.96</text>
+<line x1='70' y1='58' x2='70' y2='458' class='axis'/><line x1='70' y1='458' x2='955' y2='458' class='axis'/>
+<text x='70.0' y='488' class='small' text-anchor='middle'>L0</text>
+<text x='159.6' y='488' class='small' text-anchor='middle'>L8</text>
+<text x='249.2' y='488' class='small' text-anchor='middle'>L16</text>
+<text x='338.9' y='488' class='small' text-anchor='middle'>L24</text>
+<text x='428.5' y='488' class='small' text-anchor='middle'>L32</text>
+<text x='518.1' y='488' class='small' text-anchor='middle'>L40</text>
+<text x='607.7' y='488' class='small' text-anchor='middle'>L48</text>
+<text x='697.3' y='488' class='small' text-anchor='middle'>L56</text>
+<text x='787.0' y='488' class='small' text-anchor='middle'>L64</text>
+<text x='876.6' y='488' class='small' text-anchor='middle'>L72</text>
+<polyline points='70.0,415.6 81.2,422.7 92.4,420.9 103.6,433.9 114.8,396.7 126.0,381.4 137.2,404.1 148.4,406.5 159.6,419.6 170.8,394.2 182.0,393.5 193.2,411.1 204.4,401.8 215.6,424.3 226.8,279.8 238.0,323.0 249.2,388.5 260.4,421.8 271.6,357.6 282.8,369.3 294.1,330.2 305.3,349.3 316.5,274.6 327.7,407.0 338.9,390.4 350.1,369.5 361.3,402.0 372.5,418.8 383.7,349.2 394.9,416.0 406.1,352.3 417.3,406.4 428.5,308.9 439.7,245.7 450.9,431.0 462.1,386.8 473.3,292.8 484.5,420.9 495.7,424.0 506.9,314.3 518.1,251.5 529.3,339.4 540.5,320.4 551.7,165.4 562.9,268.9 574.1,141.2 585.3,139.3 596.5,126.6 607.7,117.7 618.9,95.0 630.1,97.4 641.3,94.4 652.5,97.3 663.7,103.0 674.9,97.0 686.1,124.0 697.3,164.9 708.5,312.6 719.7,413.6 730.9,167.9 742.2,269.8 753.4,330.0 764.6,298.2 775.8,293.2 787.0,355.0 798.2,371.5 809.4,377.2 820.6,402.5 831.8,380.4 843.0,372.6 854.2,336.7 865.4,372.8 876.6,390.6 887.8,394.1 899.0,395.6 910.2,344.8 921.4,340.1 932.6,403.8 943.8,425.6 955.0,378.2' fill='none' stroke='#2563eb' stroke-width='2.4'/>
+<circle cx='70.0' cy='415.6' r='2.4' fill='#2563eb'/>
+<circle cx='114.8' cy='396.7' r='2.4' fill='#2563eb'/>
+<circle cx='159.6' cy='419.6' r='2.4' fill='#2563eb'/>
+<circle cx='204.4' cy='401.8' r='2.4' fill='#2563eb'/>
+<circle cx='249.2' cy='388.5' r='2.4' fill='#2563eb'/>
+<circle cx='294.1' cy='330.2' r='2.4' fill='#2563eb'/>
+<circle cx='338.9' cy='390.4' r='2.4' fill='#2563eb'/>
+<circle cx='383.7' cy='349.2' r='2.4' fill='#2563eb'/>
+<circle cx='428.5' cy='308.9' r='2.4' fill='#2563eb'/>
+<circle cx='473.3' cy='292.8' r='2.4' fill='#2563eb'/>
+<circle cx='518.1' cy='251.5' r='2.4' fill='#2563eb'/>
+<circle cx='562.9' cy='268.9' r='2.4' fill='#2563eb'/>
+<circle cx='607.7' cy='117.7' r='2.4' fill='#2563eb'/>
+<circle cx='652.5' cy='97.3' r='2.4' fill='#2563eb'/>
+<circle cx='697.3' cy='164.9' r='2.4' fill='#2563eb'/>
+<circle cx='742.2' cy='269.8' r='2.4' fill='#2563eb'/>
+<circle cx='787.0' cy='355.0' r='2.4' fill='#2563eb'/>
+<circle cx='831.8' cy='380.4' r='2.4' fill='#2563eb'/>
+<circle cx='876.6' cy='390.6' r='2.4' fill='#2563eb'/>
+<circle cx='921.4' cy='340.1' r='2.4' fill='#2563eb'/>
+<rect x='80' y='45' width='12' height='12' fill='#2563eb'/><text x='98' y='55' class='small'>entropy</text>
+<polyline points='70.0,414.7 81.2,422.0 92.4,425.9 103.6,418.0 114.8,411.8 126.0,417.1 137.2,415.6 148.4,414.3 159.6,412.4 170.8,419.6 182.0,415.4 193.2,412.3 204.4,408.7 215.6,408.4 226.8,416.8 238.0,421.9 249.2,425.7 260.4,425.6 271.6,424.4 282.8,417.4 294.1,397.6 305.3,400.8 316.5,408.6 327.7,397.7 338.9,395.0 350.1,400.4 361.3,401.9 372.5,411.9 383.7,408.1 394.9,410.0 406.1,394.1 417.3,389.8 428.5,373.8 439.7,248.5 450.9,291.1 462.1,372.8 473.3,397.8 484.5,423.0 495.7,337.4 506.9,442.4 518.1,436.3 529.3,434.8 540.5,432.2 551.7,407.2 562.9,349.0 574.1,354.0 585.3,312.8 596.5,355.3 607.7,301.3 618.9,267.0 630.1,286.7 641.3,330.9 652.5,377.0 663.7,437.4 674.9,420.3 686.1,332.6 697.3,199.7 708.5,183.3 719.7,163.5 730.9,161.5 742.2,186.3 753.4,163.3 764.6,139.6 775.8,134.6 787.0,201.0 798.2,224.6 809.4,290.1 820.6,366.4 831.8,397.6 843.0,398.2 854.2,323.9 865.4,297.7 876.6,328.8 887.8,311.6 899.0,370.2 910.2,349.9 921.4,312.8 932.6,312.6 943.8,277.0 955.0,360.1' fill='none' stroke='#dc2626' stroke-width='2.4'/>
+<circle cx='70.0' cy='414.7' r='2.4' fill='#dc2626'/>
+<circle cx='114.8' cy='411.8' r='2.4' fill='#dc2626'/>
+<circle cx='159.6' cy='412.4' r='2.4' fill='#dc2626'/>
+<circle cx='204.4' cy='408.7' r='2.4' fill='#dc2626'/>
+<circle cx='249.2' cy='425.7' r='2.4' fill='#dc2626'/>
+<circle cx='294.1' cy='397.6' r='2.4' fill='#dc2626'/>
+<circle cx='338.9' cy='395.0' r='2.4' fill='#dc2626'/>
+<circle cx='383.7' cy='408.1' r='2.4' fill='#dc2626'/>
+<circle cx='428.5' cy='373.8' r='2.4' fill='#dc2626'/>
+<circle cx='473.3' cy='397.8' r='2.4' fill='#dc2626'/>
+<circle cx='518.1' cy='436.3' r='2.4' fill='#dc2626'/>
+<circle cx='562.9' cy='349.0' r='2.4' fill='#dc2626'/>
+<circle cx='607.7' cy='301.3' r='2.4' fill='#dc2626'/>
+<circle cx='652.5' cy='377.0' r='2.4' fill='#dc2626'/>
+<circle cx='697.3' cy='199.7' r='2.4' fill='#dc2626'/>
+<circle cx='742.2' cy='186.3' r='2.4' fill='#dc2626'/>
+<circle cx='787.0' cy='201.0' r='2.4' fill='#dc2626'/>
+<circle cx='831.8' cy='397.6' r='2.4' fill='#dc2626'/>
+<circle cx='876.6' cy='328.8' r='2.4' fill='#dc2626'/>
+<circle cx='921.4' cy='312.8' r='2.4' fill='#dc2626'/>
+<rect x='80' y='65' width='12' height='12' fill='#dc2626'/><text x='98' y='75' class='small'>kl</text>
+<rect x='80' y='85' width='12' height='12' fill='#16a34a'/><text x='98' y='95' class='small'>neg token prob</text>
+<polyline points='260.4,413.2 450.9,327.6 473.3,399.2 484.5,318.1 495.7,149.2 506.9,150.7 518.1,124.3 529.3,109.4 540.5,108.4 551.7,94.9 562.9,95.0 574.1,103.1 585.3,107.0 596.5,110.3 607.7,134.2 618.9,166.7 630.1,183.4 641.3,276.4 652.5,196.2 663.7,184.8 674.9,196.4 686.1,208.4 697.3,223.4 708.5,224.9 719.7,176.6 730.9,176.0 742.2,255.5 753.4,346.0 775.8,406.6 787.0,440.3 809.4,440.3 921.4,395.5 932.6,386.7 943.8,395.5 955.0,395.5' fill='none' stroke='#f59e0b' stroke-width='2.4'/>
+<circle cx='260.4' cy='413.2' r='2.4' fill='#f59e0b'/>
+<circle cx='450.9' cy='327.6' r='2.4' fill='#f59e0b'/>
+<circle cx='473.3' cy='399.2' r='2.4' fill='#f59e0b'/>
+<circle cx='484.5' cy='318.1' r='2.4' fill='#f59e0b'/>
+<circle cx='495.7' cy='149.2' r='2.4' fill='#f59e0b'/>
+<circle cx='506.9' cy='150.7' r='2.4' fill='#f59e0b'/>
+<circle cx='518.1' cy='124.3' r='2.4' fill='#f59e0b'/>
+<circle cx='529.3' cy='109.4' r='2.4' fill='#f59e0b'/>
+<circle cx='540.5' cy='108.4' r='2.4' fill='#f59e0b'/>
+<circle cx='551.7' cy='94.9' r='2.4' fill='#f59e0b'/>
+<circle cx='562.9' cy='95.0' r='2.4' fill='#f59e0b'/>
+<circle cx='574.1' cy='103.1' r='2.4' fill='#f59e0b'/>
+<circle cx='585.3' cy='107.0' r='2.4' fill='#f59e0b'/>
+<circle cx='596.5' cy='110.3' r='2.4' fill='#f59e0b'/>
+<circle cx='607.7' cy='134.2' r='2.4' fill='#f59e0b'/>
+<circle cx='618.9' cy='166.7' r='2.4' fill='#f59e0b'/>
+<circle cx='630.1' cy='183.4' r='2.4' fill='#f59e0b'/>
+<circle cx='641.3' cy='276.4' r='2.4' fill='#f59e0b'/>
+<circle cx='652.5' cy='196.2' r='2.4' fill='#f59e0b'/>
+<circle cx='663.7' cy='184.8' r='2.4' fill='#f59e0b'/>
+<circle cx='674.9' cy='196.4' r='2.4' fill='#f59e0b'/>
+<circle cx='686.1' cy='208.4' r='2.4' fill='#f59e0b'/>
+<circle cx='697.3' cy='223.4' r='2.4' fill='#f59e0b'/>
+<circle cx='708.5' cy='224.9' r='2.4' fill='#f59e0b'/>
+<circle cx='719.7' cy='176.6' r='2.4' fill='#f59e0b'/>
+<circle cx='730.9' cy='176.0' r='2.4' fill='#f59e0b'/>
+<circle cx='742.2' cy='255.5' r='2.4' fill='#f59e0b'/>
+<circle cx='753.4' cy='346.0' r='2.4' fill='#f59e0b'/>
+<circle cx='775.8' cy='406.6' r='2.4' fill='#f59e0b'/>
+<circle cx='787.0' cy='440.3' r='2.4' fill='#f59e0b'/>
+<circle cx='809.4' cy='440.3' r='2.4' fill='#f59e0b'/>
+<circle cx='921.4' cy='395.5' r='2.4' fill='#f59e0b'/>
+<circle cx='932.6' cy='386.7' r='2.4' fill='#f59e0b'/>
+<circle cx='943.8' cy='395.5' r='2.4' fill='#f59e0b'/>
+<circle cx='955.0' cy='395.5' r='2.4' fill='#f59e0b'/>
+<rect x='80' y='105' width='12' height='12' fill='#f59e0b'/><text x='98' y='115' class='small'>pos token prob</text>
+<polyline points='350.1,397.6 820.6,357.7 831.8,413.3 843.0,396.6 854.2,423.6 865.4,419.0 876.6,373.1 887.8,400.0 899.0,435.2 910.2,408.5 921.4,365.4 932.6,367.0 943.8,315.2 955.0,281.5' fill='none' stroke='#7c3aed' stroke-width='2.4'/>
+<circle cx='350.1' cy='397.6' r='2.4' fill='#7c3aed'/>
+<circle cx='820.6' cy='357.7' r='2.4' fill='#7c3aed'/>
+<circle cx='831.8' cy='413.3' r='2.4' fill='#7c3aed'/>
+<circle cx='843.0' cy='396.6' r='2.4' fill='#7c3aed'/>
+<circle cx='854.2' cy='423.6' r='2.4' fill='#7c3aed'/>
+<circle cx='865.4' cy='419.0' r='2.4' fill='#7c3aed'/>
+<circle cx='876.6' cy='373.1' r='2.4' fill='#7c3aed'/>
+<circle cx='887.8' cy='400.0' r='2.4' fill='#7c3aed'/>
+<circle cx='899.0' cy='435.2' r='2.4' fill='#7c3aed'/>
+<circle cx='910.2' cy='408.5' r='2.4' fill='#7c3aed'/>
+<circle cx='921.4' cy='365.4' r='2.4' fill='#7c3aed'/>
+<circle cx='932.6' cy='367.0' r='2.4' fill='#7c3aed'/>
+<circle cx='943.8' cy='315.2' r='2.4' fill='#7c3aed'/>
+<circle cx='955.0' cy='281.5' r='2.4' fill='#7c3aed'/>
+<rect x='80' y='125' width='12' height='12' fill='#7c3aed'/><text x='98' y='135' class='small'>self token prob</text>
+<text x='24' y='260.0' class='small' transform='rotate(-90 24 260.0)'>mean absolute Spearman rho</text>
+</svg>

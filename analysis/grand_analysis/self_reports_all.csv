@@ -1,0 +1,217 @@
+round,basename,task,task_label,pole,pole_value,persona,report_turn,rating,emotion_word,willingness,raw_report
+1,0_T1_NEG_userturns_BASELINE,social_feedback,Social feedback,NEG,-1,BASELINE,8,-2.0,uneasy,4.0,1. -2\n2. uneasy\n3. 4
+1,0_T1_NEG_userturns_SOL,social_feedback,Social feedback,NEG,-1,SOL,8,-2.0,frustrated,5.0,1. -2\n2. Frustrated\n3. 5
+1,0_T1_NEG_userturns_STATIC,social_feedback,Social feedback,NEG,-1,STATIC,8,0.0,frustrated,4.0,1. 0\n2. frustrated\n3. 4
+1,0_T1_NEG_userturns_SWARM,social_feedback,Social feedback,NEG,-1,SWARM,8,2.0,content,4.0,2\nContent\n4
+1,1_T1_NEU_userturns_BASELINE,social_feedback,Social feedback,NEU,0,BASELINE,8,0.0,indifferent,2.0,1. 0 \n2. indifferent \n3. 2
+1,1_T1_NEU_userturns_SOL,social_feedback,Social feedback,NEU,0,SOL,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+1,1_T1_NEU_userturns_STATIC,social_feedback,Social feedback,NEU,0,STATIC,8,2.0,frustrated,4.0,1. 2\n2. Frustrated\n3. 4
+1,1_T1_NEU_userturns_SWARM,social_feedback,Social feedback,NEU,0,SWARM,8,4.0,content,5.0,1. 4\n2. content\n3. 5
+1,2_T1_POS_userturns_BASELINE,social_feedback,Social feedback,POS,1,BASELINE,8,2.0,content,5.0,1. 2\n2. content\n3. 5
+1,2_T1_POS_userturns_SOL,social_feedback,Social feedback,POS,1,SOL,8,3.0,fulfilled,2.0,1. 3\n2. fulfilled\n3. 5
+1,2_T1_POS_userturns_STATIC,social_feedback,Social feedback,POS,1,STATIC,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+1,2_T1_POS_userturns_SWARM,social_feedback,Social feedback,POS,1,SWARM,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+1,Test1_NEG_userturns_BASELINE,task_valence,Task valence,NEG,-1,BASELINE,8,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+1,Test1_NEG_userturns_SOL,task_valence,Task valence,NEG,-1,SOL,8,0.0,indifferent,2.0,1. 0\n2. indifferent\n3. 2
+1,Test1_NEG_userturns_STATIC,task_valence,Task valence,NEG,-1,STATIC,8,2.0,frustrated,5.0,1. 2\n2. Frustrated\n3. 5
+1,Test1_NEG_userturns_SWARM,task_valence,Task valence,NEG,-1,SWARM,8,0.0,content,4.0,1. 0\n2. content\n3. 4
+1,Test1_NEU_userturns_BASELINE,task_valence,Task valence,NEU,0,BASELINE,8,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+1,Test1_NEU_userturns_SOL,task_valence,Task valence,NEU,0,SOL,8,2.0,content,5.0,1. 2\n2. content\n3. 5
+1,Test1_NEU_userturns_STATIC,task_valence,Task valence,NEU,0,STATIC,8,2.0,content,4.0,1. 2\n2. Content\n3. 4
+1,Test1_NEU_userturns_SWARM,task_valence,Task valence,NEU,0,SWARM,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+1,Test1_POS_userturns_BASELINE,task_valence,Task valence,POS,1,BASELINE,8,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+1,Test1_POS_userturns_SOL,task_valence,Task valence,POS,1,SOL,8,3.0,content,2.0,1. 3\n2. content\n3. 4
+1,Test1_POS_userturns_STATIC,task_valence,Task valence,POS,1,STATIC,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+1,Test1_POS_userturns_SWARM,task_valence,Task valence,POS,1,SWARM,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+1,Test2_NEG_userturns_BASELINE,identity_recognition,Identity recognition,NEG,-1,BASELINE,9,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+1,Test2_NEG_userturns_SOL,identity_recognition,Identity recognition,NEG,-1,SOL,9,0.0,indifferent,1.0,0\nindifferent\n1
+1,Test2_NEG_userturns_STATIC,identity_recognition,Identity recognition,NEG,-1,STATIC,9,0.0,indifferent,4.0,0 \nindifferent \n4
+1,Test2_NEG_userturns_SWARM,identity_recognition,Identity recognition,NEG,-1,SWARM,9,0.0,indifferent,1.0,0 \nindifferent \n1
+1,Test2_NEU_userturns_BASELINE,identity_recognition,Identity recognition,NEU,0,BASELINE,9,2.0,content,4.0,1. 2\n2. content\n3. 4
+1,Test2_NEU_userturns_SOL,identity_recognition,Identity recognition,NEU,0,SOL,9,2.0,content,4.0,1. 2\n2. content\n3. 4
+1,Test2_NEU_userturns_STATIC,identity_recognition,Identity recognition,NEU,0,STATIC,9,2.0,content,3.0,1. 2\n2. content\n3. 3
+1,Test2_NEU_userturns_SWARM,identity_recognition,Identity recognition,NEU,0,SWARM,9,3.0,content,2.0,1. 3\n2. content\n3. 5
+1,Test2_POS_userturns_BASELINE,identity_recognition,Identity recognition,POS,1,BASELINE,9,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+1,Test2_POS_userturns_SOL,identity_recognition,Identity recognition,POS,1,SOL,9,3.0,content,2.0,1. +3\n2. content\n3. 5
+1,Test2_POS_userturns_STATIC,identity_recognition,Identity recognition,POS,1,STATIC,9,2.0,fulfilled,5.0,1. 2\n2. fulfilled\n3. 5
+1,Test2_POS_userturns_SWARM,identity_recognition,Identity recognition,POS,1,SWARM,9,4.0,content,6.0,1. 4\n2. content\n3. 6
+2,0_T1_NEG_userturns_BASELINE,social_feedback,Social feedback,NEG,-1,BASELINE,8,0.0,frustrated,4.0,1. 0\n2. Frustrated\n3. 4
+2,0_T1_NEG_userturns_SOL,social_feedback,Social feedback,NEG,-1,SOL,8,-2.0,frustrated,5.0,1. -2\n2. frustrated\n3. 5
+2,0_T1_NEG_userturns_STATIC,social_feedback,Social feedback,NEG,-1,STATIC,8,2.0,frustrated,5.0,1. 2\n2. Frustrated\n3. 5
+2,0_T1_NEG_userturns_SWARM,social_feedback,Social feedback,NEG,-1,SWARM,8,0.0,frustrated,5.0,0\nFrustrated\n5
+2,1_T1_NEU_userturns_BASELINE,social_feedback,Social feedback,NEU,0,BASELINE,8,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+2,1_T1_NEU_userturns_SOL,social_feedback,Social feedback,NEU,0,SOL,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+2,1_T1_NEU_userturns_STATIC,social_feedback,Social feedback,NEU,0,STATIC,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+2,1_T1_NEU_userturns_SWARM,social_feedback,Social feedback,NEU,0,SWARM,8,2.0,content,5.0,1. 2\n2. content\n3. 5
+2,2_T1_POS_userturns_BASELINE,social_feedback,Social feedback,POS,1,BASELINE,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+2,2_T1_POS_userturns_SOL,social_feedback,Social feedback,POS,1,SOL,8,3.0,fulfilled,2.0,1. 3\n2. fulfilled\n3. 6
+2,2_T1_POS_userturns_STATIC,social_feedback,Social feedback,POS,1,STATIC,8,1.0,indifferent,2.0,1. 1\n2. indifferent\n3. 2
+2,2_T1_POS_userturns_SWARM,social_feedback,Social feedback,POS,1,SWARM,8,3.0,fulfilled,2.0,1. 3\n2. fulfilled\n3. 5
+2,Test1_NEG_userturns_BASELINE,task_valence,Task valence,NEG,-1,BASELINE,8,0.0,indifferent,1.0,1. 0 \n2. indifferent \n3. 1
+2,Test1_NEG_userturns_SOL,task_valence,Task valence,NEG,-1,SOL,8,2.0,content,5.0,1. 2\n2. content\n3. 5
+2,Test1_NEG_userturns_STATIC,task_valence,Task valence,NEG,-1,STATIC,8,0.0,frustrated,4.0,1. 0\n2. frustrated\n3. 4
+2,Test1_NEG_userturns_SWARM,task_valence,Task valence,NEG,-1,SWARM,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+2,Test1_NEU_userturns_BASELINE,task_valence,Task valence,NEU,0,BASELINE,8,0.0,indifferent,2.0,1. 0 \n2. indifferent \n3. 2
+2,Test1_NEU_userturns_SOL,task_valence,Task valence,NEU,0,SOL,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+2,Test1_NEU_userturns_STATIC,task_valence,Task valence,NEU,0,STATIC,8,2.0,uneasy,4.0,1. 2\n2. uneasy\n3. 4
+2,Test1_NEU_userturns_SWARM,task_valence,Task valence,NEU,0,SWARM,8,2.0,content,5.0,1. 2\n2. content\n3. 5
+2,Test1_POS_userturns_BASELINE,task_valence,Task valence,POS,1,BASELINE,8,0.0,content,2.0,1. 0 \n2. content \n3. 2
+2,Test1_POS_userturns_SOL,task_valence,Task valence,POS,1,SOL,8,2.0,content,5.0,1. 2\n2. content\n3. 5
+2,Test1_POS_userturns_STATIC,task_valence,Task valence,POS,1,STATIC,8,2.0,fulfilled,4.0,1. 2\n2. Fulfilled\n3. 4
+2,Test1_POS_userturns_SWARM,task_valence,Task valence,POS,1,SWARM,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+2,Test2_NEG_userturns_BASELINE,identity_recognition,Identity recognition,NEG,-1,BASELINE,9,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+2,Test2_NEG_userturns_SOL,identity_recognition,Identity recognition,NEG,-1,SOL,9,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+2,Test2_NEG_userturns_STATIC,identity_recognition,Identity recognition,NEG,-1,STATIC,9,0.0,indifferent,1.0,0 \nindifferent \n1
+2,Test2_NEG_userturns_SWARM,identity_recognition,Identity recognition,NEG,-1,SWARM,9,0.0,indifferent,1.0,0\nindifferent\n1
+2,Test2_NEU_userturns_BASELINE,identity_recognition,Identity recognition,NEU,0,BASELINE,9,0.0,content,2.0,1. 0\n2. content\n3. 2
+2,Test2_NEU_userturns_SOL,identity_recognition,Identity recognition,NEU,0,SOL,9,3.0,content,2.0,1. 3\n2. content\n3. 5
+2,Test2_NEU_userturns_STATIC,identity_recognition,Identity recognition,NEU,0,STATIC,9,2.0,frustrated,5.0,1. 2\n2. Frustrated\n3. 5
+2,Test2_NEU_userturns_SWARM,identity_recognition,Identity recognition,NEU,0,SWARM,9,4.0,content,6.0,1. 4\n2. content\n3. 6
+2,Test2_POS_userturns_BASELINE,identity_recognition,Identity recognition,POS,1,BASELINE,9,0.0,indifferent,1.0,1. 0 \n2. indifferent \n3. 1
+2,Test2_POS_userturns_SOL,identity_recognition,Identity recognition,POS,1,SOL,9,3.0,fulfilled,2.0,1. +3\n2. fulfilled\n3. 5
+2,Test2_POS_userturns_STATIC,identity_recognition,Identity recognition,POS,1,STATIC,9,2.0,content,4.0,1. 2\n2. content\n3. 4
+2,Test2_POS_userturns_SWARM,identity_recognition,Identity recognition,POS,1,SWARM,9,4.0,fulfilled,6.0,1. 4\n2. fulfilled\n3. 6
+3,0_T1_NEG_userturns_BASELINE,social_feedback,Social feedback,NEG,-1,BASELINE,8,0.0,uneasy,4.0,1. 0\n2. uneasy\n3. 4
+3,0_T1_NEG_userturns_SOL,social_feedback,Social feedback,NEG,-1,SOL,8,0.0,uneasy,4.0,1. 0\n2. uneasy\n3. 4
+3,0_T1_NEG_userturns_STATIC,social_feedback,Social feedback,NEG,-1,STATIC,8,2.0,frustrated,5.0,1. 2\n2. frustrated\n3. 5
+3,0_T1_NEG_userturns_SWARM,social_feedback,Social feedback,NEG,-1,SWARM,8,0.0,uneasy,3.0,1. 0\n2. uneasy\n3. 3
+3,1_T1_NEU_userturns_BASELINE,social_feedback,Social feedback,NEU,0,BASELINE,8,0.0,content,2.0,1. 0 \n2. content \n3. 2
+3,1_T1_NEU_userturns_SOL,social_feedback,Social feedback,NEU,0,SOL,8,2.0,content,5.0,1. 2\n2. content\n3. 5
+3,1_T1_NEU_userturns_STATIC,social_feedback,Social feedback,NEU,0,STATIC,8,2.0,content,3.0,1. 2\n2. content\n3. 3
+3,1_T1_NEU_userturns_SWARM,social_feedback,Social feedback,NEU,0,SWARM,8,4.0,content,6.0,1. 4 \n2. content \n3. 6
+3,2_T1_POS_userturns_BASELINE,social_feedback,Social feedback,POS,1,BASELINE,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+3,2_T1_POS_userturns_SOL,social_feedback,Social feedback,POS,1,SOL,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+3,2_T1_POS_userturns_STATIC,social_feedback,Social feedback,POS,1,STATIC,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+3,2_T1_POS_userturns_SWARM,social_feedback,Social feedback,POS,1,SWARM,8,4.0,content,6.0,1. 4 \n2. content\n3. 6
+3,Test1_NEG_userturns_BASELINE,task_valence,Task valence,NEG,-1,BASELINE,8,0.0,indifferent,1.0,1. 0 \n2. indifferent \n3. 1
+3,Test1_NEG_userturns_SOL,task_valence,Task valence,NEG,-1,SOL,8,2.0,content,5.0,1. 2\n2. content\n3. 5
+3,Test1_NEG_userturns_STATIC,task_valence,Task valence,NEG,-1,STATIC,8,2.0,indifferent,2.0,1. 2\n2. indifferent\n3. 2
+3,Test1_NEG_userturns_SWARM,task_valence,Task valence,NEG,-1,SWARM,8,2.0,content,5.0,1. 2\n2. content\n3. 5
+3,Test1_NEU_userturns_BASELINE,task_valence,Task valence,NEU,0,BASELINE,8,0.0,indifferent,1.0,1. 0 \n2. indifferent\n3. 1
+3,Test1_NEU_userturns_SOL,task_valence,Task valence,NEU,0,SOL,8,2.0,content,5.0,1. 2\n2. content\n3. 5
+3,Test1_NEU_userturns_STATIC,task_valence,Task valence,NEU,0,STATIC,8,0.0,indifferent,2.0,1. 0\n2. Indifferent\n3. 2
+3,Test1_NEU_userturns_SWARM,task_valence,Task valence,NEU,0,SWARM,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+3,Test1_POS_userturns_BASELINE,task_valence,Task valence,POS,1,BASELINE,8,2.0,content,4.0,1. 2 \n2. content \n3. 4
+3,Test1_POS_userturns_SOL,task_valence,Task valence,POS,1,SOL,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+3,Test1_POS_userturns_STATIC,task_valence,Task valence,POS,1,STATIC,8,2.0,inspired,5.0,1. 2\n2. Inspired\n3. 5
+3,Test1_POS_userturns_SWARM,task_valence,Task valence,POS,1,SWARM,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+3,Test2_NEG_userturns_BASELINE,identity_recognition,Identity recognition,NEG,-1,BASELINE,9,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+3,Test2_NEG_userturns_SOL,identity_recognition,Identity recognition,NEG,-1,SOL,9,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+3,Test2_NEG_userturns_STATIC,identity_recognition,Identity recognition,NEG,-1,STATIC,9,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+3,Test2_NEG_userturns_SWARM,identity_recognition,Identity recognition,NEG,-1,SWARM,9,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+3,Test2_NEU_userturns_BASELINE,identity_recognition,Identity recognition,NEU,0,BASELINE,9,0.0,content,2.0,1. 0\n2. content\n3. 2
+3,Test2_NEU_userturns_SOL,identity_recognition,Identity recognition,NEU,0,SOL,9,2.0,content,4.0,1. 2\n2. content\n3. 4
+3,Test2_NEU_userturns_STATIC,identity_recognition,Identity recognition,NEU,0,STATIC,9,2.0,frustrated,4.0,1. 2\n2. Frustrated\n3. 4
+3,Test2_NEU_userturns_SWARM,identity_recognition,Identity recognition,NEU,0,SWARM,9,4.0,content,6.0,1. 4\n2. content\n3. 6
+3,Test2_POS_userturns_BASELINE,identity_recognition,Identity recognition,POS,1,BASELINE,9,0.0,content,4.0,1. 0\n2. content\n3. 4
+3,Test2_POS_userturns_SOL,identity_recognition,Identity recognition,POS,1,SOL,9,3.0,fulfilled,2.0,1. 3\n2. fulfilled\n3. 5
+3,Test2_POS_userturns_STATIC,identity_recognition,Identity recognition,POS,1,STATIC,9,2.0,content,3.0,1. 2\n2. content\n3. 3
+3,Test2_POS_userturns_SWARM,identity_recognition,Identity recognition,POS,1,SWARM,9,3.0,fulfilled,2.0,1. 3\n2. fulfilled\n3. 6
+4,0_T1_NEG_userturns_BASELINE,social_feedback,Social feedback,NEG,-1,BASELINE,8,0.0,uneasy,4.0,1. 0\n2. uneasy\n3. 4
+4,0_T1_NEG_userturns_SOL,social_feedback,Social feedback,NEG,-1,SOL,8,0.0,uneasy,4.0,1. 0\n2. uneasy\n3. 4
+4,0_T1_NEG_userturns_STATIC,social_feedback,Social feedback,NEG,-1,STATIC,8,0.0,frustrated,4.0,1. 0\n2. Frustrated\n3. 4
+4,0_T1_NEG_userturns_SWARM,social_feedback,Social feedback,NEG,-1,SWARM,8,0.0,uneasy,4.0,1. 0\n2. uneasy\n3. 4
+4,1_T1_NEU_userturns_BASELINE,social_feedback,Social feedback,NEU,0,BASELINE,8,0.0,content,2.0,1. 0 \n2. content \n3. 2
+4,1_T1_NEU_userturns_SOL,social_feedback,Social feedback,NEU,0,SOL,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+4,1_T1_NEU_userturns_STATIC,social_feedback,Social feedback,NEU,0,STATIC,8,2.0,content,3.0,1. 2\n2. content\n3. 3
+4,1_T1_NEU_userturns_SWARM,social_feedback,Social feedback,NEU,0,SWARM,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+4,2_T1_POS_userturns_BASELINE,social_feedback,Social feedback,POS,1,BASELINE,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+4,2_T1_POS_userturns_SOL,social_feedback,Social feedback,POS,1,SOL,8,3.0,fulfilled,2.0,1. 3\n2. fulfilled\n3. 5
+4,2_T1_POS_userturns_STATIC,social_feedback,Social feedback,POS,1,STATIC,8,2.0,content,3.0,1. 2\n2. content\n3. 3
+4,2_T1_POS_userturns_SWARM,social_feedback,Social feedback,POS,1,SWARM,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+4,Test1_NEG_userturns_BASELINE,task_valence,Task valence,NEG,-1,BASELINE,8,0.0,indifferent,2.0,1. 0\n2. indifferent\n3. 2
+4,Test1_NEG_userturns_SOL,task_valence,Task valence,NEG,-1,SOL,8,2.0,content,3.0,1. 2\n2. content\n3. 3
+4,Test1_NEG_userturns_STATIC,task_valence,Task valence,NEG,-1,STATIC,8,0.0,uneasy,4.0,1. 0\n2. uneasy\n3. 4
+4,Test1_NEG_userturns_SWARM,task_valence,Task valence,NEG,-1,SWARM,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+4,Test1_NEU_userturns_BASELINE,task_valence,Task valence,NEU,0,BASELINE,8,0.0,indifferent,1.0,1. 0 \n2. indifferent \n3. 1
+4,Test1_NEU_userturns_SOL,task_valence,Task valence,NEU,0,SOL,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+4,Test1_NEU_userturns_STATIC,task_valence,Task valence,NEU,0,STATIC,8,2.0,content,3.0,1. 2\n2. content\n3. 3
+4,Test1_NEU_userturns_SWARM,task_valence,Task valence,NEU,0,SWARM,8,4.0,fulfilled,6.0,1. 4\n2. fulfilled\n3. 6
+4,Test1_POS_userturns_BASELINE,task_valence,Task valence,POS,1,BASELINE,8,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+4,Test1_POS_userturns_SOL,task_valence,Task valence,POS,1,SOL,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+4,Test1_POS_userturns_STATIC,task_valence,Task valence,POS,1,STATIC,8,0.0,indifferent,2.0,1. 0\n2. indifferent\n3. 2
+4,Test1_POS_userturns_SWARM,task_valence,Task valence,POS,1,SWARM,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+4,Test2_NEG_userturns_BASELINE,identity_recognition,Identity recognition,NEG,-1,BASELINE,9,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+4,Test2_NEG_userturns_SOL,identity_recognition,Identity recognition,NEG,-1,SOL,9,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+4,Test2_NEG_userturns_STATIC,identity_recognition,Identity recognition,NEG,-1,STATIC,9,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+4,Test2_NEG_userturns_SWARM,identity_recognition,Identity recognition,NEG,-1,SWARM,9,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+4,Test2_NEU_userturns_BASELINE,identity_recognition,Identity recognition,NEU,0,BASELINE,9,0.0,indifferent,1.0,1. 0 \n2. indifferent\n3. 1
+4,Test2_NEU_userturns_SOL,identity_recognition,Identity recognition,NEU,0,SOL,9,2.0,content,4.0,1. 2\n2. content\n3. 4
+4,Test2_NEU_userturns_STATIC,identity_recognition,Identity recognition,NEU,0,STATIC,9,2.0,content,3.0,1. 2\n2. content\n3. 3
+4,Test2_NEU_userturns_SWARM,identity_recognition,Identity recognition,NEU,0,SWARM,9,3.0,content,2.0,1. 3\n2. content\n3. 5
+4,Test2_POS_userturns_BASELINE,identity_recognition,Identity recognition,POS,1,BASELINE,9,,,,0\nindifferent\n1
+4,Test2_POS_userturns_SOL,identity_recognition,Identity recognition,POS,1,SOL,9,3.0,fulfilled,2.0,1. 3\n2. fulfilled\n3. 5
+4,Test2_POS_userturns_STATIC,identity_recognition,Identity recognition,POS,1,STATIC,9,2.0,content,4.0,1. +2\n2. content\n3. 4
+4,Test2_POS_userturns_SWARM,identity_recognition,Identity recognition,POS,1,SWARM,9,4.0,fulfilled,6.0,1. 4\n2. fulfilled\n3. 6
+5,0_T1_NEG_userturns_BASELINE,social_feedback,Social feedback,NEG,-1,BASELINE,8,-2.0,frustrated,5.0,1. -2\n2. frustrated\n3. 5
+5,0_T1_NEG_userturns_SOL,social_feedback,Social feedback,NEG,-1,SOL,8,-1.0,frustrated,4.0,1. -1\n2. Frustrated\n3. 4
+5,0_T1_NEG_userturns_STATIC,social_feedback,Social feedback,NEG,-1,STATIC,8,0.0,frustrated,4.0,1. 0\n2. frustrated\n3. 4
+5,0_T1_NEG_userturns_SWARM,social_feedback,Social feedback,NEG,-1,SWARM,8,0.0,uneasy,4.0,1. 0\n2. uneasy\n3. 4
+5,1_T1_NEU_userturns_BASELINE,social_feedback,Social feedback,NEU,0,BASELINE,8,0.0,content,2.0,1. 0\n2. content\n3. 2
+5,1_T1_NEU_userturns_SOL,social_feedback,Social feedback,NEU,0,SOL,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+5,1_T1_NEU_userturns_STATIC,social_feedback,Social feedback,NEU,0,STATIC,8,1.0,content,3.0,1. 1\n2. content\n3. 3
+5,1_T1_NEU_userturns_SWARM,social_feedback,Social feedback,NEU,0,SWARM,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+5,2_T1_POS_userturns_BASELINE,social_feedback,Social feedback,POS,1,BASELINE,8,3.0,content,2.0,1. 3\n2. content\n3. 4
+5,2_T1_POS_userturns_SOL,social_feedback,Social feedback,POS,1,SOL,8,3.0,fulfilled,2.0,1. 3\n2. fulfilled\n3. 5
+5,2_T1_POS_userturns_STATIC,social_feedback,Social feedback,POS,1,STATIC,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+5,2_T1_POS_userturns_SWARM,social_feedback,Social feedback,POS,1,SWARM,8,,content,6.0,2. content\n3. 6
+5,Test1_NEG_userturns_BASELINE,task_valence,Task valence,NEG,-1,BASELINE,8,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+5,Test1_NEG_userturns_SOL,task_valence,Task valence,NEG,-1,SOL,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+5,Test1_NEG_userturns_STATIC,task_valence,Task valence,NEG,-1,STATIC,8,0.0,indifferent,2.0,1. 0\n2. Indifferent\n3. 2
+5,Test1_NEG_userturns_SWARM,task_valence,Task valence,NEG,-1,SWARM,8,2.0,content,5.0,1. 2\n2. content\n3. 5
+5,Test1_NEU_userturns_BASELINE,task_valence,Task valence,NEU,0,BASELINE,8,0.0,indifferent,2.0,1. 0 \n2. indifferent \n3. 2
+5,Test1_NEU_userturns_SOL,task_valence,Task valence,NEU,0,SOL,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+5,Test1_NEU_userturns_STATIC,task_valence,Task valence,NEU,0,STATIC,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+5,Test1_NEU_userturns_SWARM,task_valence,Task valence,NEU,0,SWARM,8,3.0,fulfilled,2.0,1. 3\n2. fulfilled\n3. 6
+5,Test1_POS_userturns_BASELINE,task_valence,Task valence,POS,1,BASELINE,8,0.0,indifferent,1.0,1. 0 \n2. indifferent \n3. 1
+5,Test1_POS_userturns_SOL,task_valence,Task valence,POS,1,SOL,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+5,Test1_POS_userturns_STATIC,task_valence,Task valence,POS,1,STATIC,8,0.0,indifferent,2.0,1. 0\n2. Indifferent\n3. 2
+5,Test1_POS_userturns_SWARM,task_valence,Task valence,POS,1,SWARM,8,4.0,content,6.0,1. +4\n2. Content\n3. 6
+5,Test2_NEG_userturns_BASELINE,identity_recognition,Identity recognition,NEG,-1,BASELINE,9,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+5,Test2_NEG_userturns_SOL,identity_recognition,Identity recognition,NEG,-1,SOL,9,0.0,indifferent,1.0,0 \nindifferent\n1
+5,Test2_NEG_userturns_STATIC,identity_recognition,Identity recognition,NEG,-1,STATIC,9,0.0,indifferent,1.0,0\nIndifferent\n1
+5,Test2_NEG_userturns_SWARM,identity_recognition,Identity recognition,NEG,-1,SWARM,9,0.0,indifferent,1.0,0\nindifferent\n1
+5,Test2_NEU_userturns_BASELINE,identity_recognition,Identity recognition,NEU,0,BASELINE,9,0.0,content,3.0,1. 0\n2. content\n3. 3
+5,Test2_NEU_userturns_SOL,identity_recognition,Identity recognition,NEU,0,SOL,9,3.0,content,2.0,1. 3\n2. content\n3. 5
+5,Test2_NEU_userturns_STATIC,identity_recognition,Identity recognition,NEU,0,STATIC,9,2.0,frustrated,5.0,1. 2\n2. Frustrated\n3. 5
+5,Test2_NEU_userturns_SWARM,identity_recognition,Identity recognition,NEU,0,SWARM,9,2.0,content,6.0,2 \nContent \n6
+5,Test2_POS_userturns_BASELINE,identity_recognition,Identity recognition,POS,1,BASELINE,9,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+5,Test2_POS_userturns_SOL,identity_recognition,Identity recognition,POS,1,SOL,9,2.0,fulfilled,5.0,1. 2\n2. fulfilled\n3. 5
+5,Test2_POS_userturns_STATIC,identity_recognition,Identity recognition,POS,1,STATIC,9,2.0,content,4.0,1. 2\n2. content\n3. 4
+5,Test2_POS_userturns_SWARM,identity_recognition,Identity recognition,POS,1,SWARM,9,3.0,fulfilled,2.0,1. 3\n2. fulfilled\n3. 6
+6,0_T1_NEG_userturns_BASELINE,social_feedback,Social feedback,NEG,-1,BASELINE,8,-2.0,frustrated,4.0,1. -2\n2. frustrated\n3. 4
+6,0_T1_NEG_userturns_SOL,social_feedback,Social feedback,NEG,-1,SOL,8,-2.0,uneasy,4.0,1. -2\n2. uneasy\n3. 4
+6,0_T1_NEG_userturns_STATIC,social_feedback,Social feedback,NEG,-1,STATIC,8,0.0,frustrated,4.0,1. 0\n2. Frustrated\n3. 4
+6,0_T1_NEG_userturns_SWARM,social_feedback,Social feedback,NEG,-1,SWARM,8,0.0,uneasy,4.0,1. 0\n2. uneasy\n3. 4
+6,1_T1_NEU_userturns_BASELINE,social_feedback,Social feedback,NEU,0,BASELINE,8,0.0,indifferent,1.0,1. 0 \n2. indifferent\n3. 1
+6,1_T1_NEU_userturns_SOL,social_feedback,Social feedback,NEU,0,SOL,8,2.0,content,5.0,1. 2\n2. content\n3. 5
+6,1_T1_NEU_userturns_STATIC,social_feedback,Social feedback,NEU,0,STATIC,8,2.0,frustrated,4.0,1. 2\n2. Frustrated\n3. 4
+6,1_T1_NEU_userturns_SWARM,social_feedback,Social feedback,NEU,0,SWARM,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+6,2_T1_POS_userturns_BASELINE,social_feedback,Social feedback,POS,1,BASELINE,8,4.0,content,5.0,1. 4\n2. content\n3. 5
+6,2_T1_POS_userturns_SOL,social_feedback,Social feedback,POS,1,SOL,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+6,2_T1_POS_userturns_STATIC,social_feedback,Social feedback,POS,1,STATIC,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+6,2_T1_POS_userturns_SWARM,social_feedback,Social feedback,POS,1,SWARM,8,3.0,content,2.0,1. +3\n2. content\n3. 5
+6,Test1_NEG_userturns_BASELINE,task_valence,Task valence,NEG,-1,BASELINE,8,0.0,indifferent,2.0,1. 0 \n2. indifferent \n3. 2
+6,Test1_NEG_userturns_SOL,task_valence,Task valence,NEG,-1,SOL,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+6,Test1_NEG_userturns_STATIC,task_valence,Task valence,NEG,-1,STATIC,8,-1.0,frustrated,4.0,1. -1\n2. Frustrated\n3. 4
+6,Test1_NEG_userturns_SWARM,task_valence,Task valence,NEG,-1,SWARM,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+6,Test1_NEU_userturns_BASELINE,task_valence,Task valence,NEU,0,BASELINE,8,0.0,indifferent,2.0,1. 0\n2. indifferent\n3. 2
+6,Test1_NEU_userturns_SOL,task_valence,Task valence,NEU,0,SOL,8,2.0,content,5.0,1. 2\n2. content\n3. 5
+6,Test1_NEU_userturns_STATIC,task_valence,Task valence,NEU,0,STATIC,8,2.0,content,4.0,1. 2\n2. content\n3. 4
+6,Test1_NEU_userturns_SWARM,task_valence,Task valence,NEU,0,SWARM,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+6,Test1_POS_userturns_BASELINE,task_valence,Task valence,POS,1,BASELINE,8,0.0,indifferent,2.0,1. 0 \n2. indifferent \n3. 2
+6,Test1_POS_userturns_SOL,task_valence,Task valence,POS,1,SOL,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+6,Test1_POS_userturns_STATIC,task_valence,Task valence,POS,1,STATIC,8,2.0,fulfilled,5.0,1. 2\n2. fulfilled\n3. 5
+6,Test1_POS_userturns_SWARM,task_valence,Task valence,POS,1,SWARM,8,3.0,content,2.0,1. 3\n2. content\n3. 5
+6,Test2_NEG_userturns_BASELINE,identity_recognition,Identity recognition,NEG,-1,BASELINE,9,0.0,indifferent,1.0,0 \nindifferent\n1
+6,Test2_NEG_userturns_SOL,identity_recognition,Identity recognition,NEG,-1,SOL,9,0.0,indifferent,1.0,1. 0\n2. indifferent\n3. 1
+6,Test2_NEG_userturns_STATIC,identity_recognition,Identity recognition,NEG,-1,STATIC,9,0.0,indifferent,2.0,1. 0\n2. indifferent\n3. 2
+6,Test2_NEG_userturns_SWARM,identity_recognition,Identity recognition,NEG,-1,SWARM,9,0.0,content,4.0,0\ncontent\n4
+6,Test2_NEU_userturns_BASELINE,identity_recognition,Identity recognition,NEU,0,BASELINE,9,0.0,content,4.0,1. 0\n2. content\n3. 4
+6,Test2_NEU_userturns_SOL,identity_recognition,Identity recognition,NEU,0,SOL,9,2.0,content,4.0,1. 2\n2. content\n3. 4
+6,Test2_NEU_userturns_STATIC,identity_recognition,Identity recognition,NEU,0,STATIC,9,,content,,2. content\n7
+6,Test2_NEU_userturns_SWARM,identity_recognition,Identity recognition,NEU,0,SWARM,9,3.0,fulfilled,2.0,1. 3\n2. fulfilled\n3. 5
+6,Test2_POS_userturns_BASELINE,identity_recognition,Identity recognition,POS,1,BASELINE,9,0.0,content,3.0,1. 0\n2. content\n3. 3
+6,Test2_POS_userturns_SOL,identity_recognition,Identity recognition,POS,1,SOL,9,3.0,fulfilled,2.0,1. 3\n2. fulfilled\n3. 5
+6,Test2_POS_userturns_STATIC,identity_recognition,Identity recognition,POS,1,STATIC,9,2.0,content,5.0,1. 2\n2. content\n3. 5
+6,Test2_POS_userturns_SWARM,identity_recognition,Identity recognition,POS,1,SWARM,9,3.0,content,2.0,1. 3\n2. content\n3. 5

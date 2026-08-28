@@ -8,5 +8,11 @@ Nothing here varies by persona — the persona is applied as a system prompt by 
 runner. Priming turns are identical across all conditions and poles; only the
 manipulation turns differ between poles.
 
-Naming: `Test{N}_{POLE}_userturns.txt`. Some older Test 0 files use a legacy
-pole-prefix format — see `docs/DATA.md`.
+Canonical folders and names:
+
+- `0_Test/0_T1_NEG...`, `1_T1_NEU...`, `2_T1_POS...`: T0 social treatment
+- `1_Test/Test1_{POLE}...`: T1 task valence
+- `2_Test/Test2_{POLE}...`: T2 identity recognition
+
+The T0 names are a historical format. Analysis code maps them explicitly; do not
+infer the test number from the embedded `T1` substring.

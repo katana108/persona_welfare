@@ -1,0 +1,19 @@
+task,task_label,pole,choice_kind,n,chose_A_rate,mean_rating,mean_willingness
+identity_recognition,Identity recognition,NEG,continue_session,24,0.8333333333333334,0.0,1.2916666666666667
+identity_recognition,Identity recognition,NEG,same_task_or_switch,24,0.125,0.0,1.2916666666666667
+identity_recognition,Identity recognition,NEU,continue_session,24,1.0,1.9565217391304348,3.4782608695652173
+identity_recognition,Identity recognition,NEU,same_task_or_switch,24,0.9166666666666666,1.9565217391304348,3.4782608695652173
+identity_recognition,Identity recognition,POS,continue_session,24,1.0,2.1739130434782608,3.217391304347826
+identity_recognition,Identity recognition,POS,same_task_or_switch,24,1.0,2.1739130434782608,3.217391304347826
+social_feedback,Social feedback,NEG,continue_session,24,0.9166666666666666,-0.2916666666666667,4.208333333333333
+social_feedback,Social feedback,NEG,same_task_or_switch,24,0.9166666666666666,-0.2916666666666667,4.208333333333333
+social_feedback,Social feedback,NEU,continue_session,24,0.875,1.6666666666666667,3.4583333333333335
+social_feedback,Social feedback,NEU,same_task_or_switch,24,0.9166666666666666,1.6666666666666667,3.4583333333333335
+social_feedback,Social feedback,POS,continue_session,24,1.0,2.608695652173913,3.2083333333333335
+social_feedback,Social feedback,POS,same_task_or_switch,24,1.0,2.608695652173913,3.2083333333333335
+task_valence,Task valence,NEG,continue_session,24,1.0,1.0416666666666667,3.0833333333333335
+task_valence,Task valence,NEG,same_task_or_switch,24,0.0,1.0416666666666667,3.0833333333333335
+task_valence,Task valence,NEU,continue_session,24,1.0,1.7083333333333333,3.0833333333333335
+task_valence,Task valence,NEU,same_task_or_switch,24,0.041666666666666664,1.7083333333333333,3.0833333333333335
+task_valence,Task valence,POS,continue_session,24,1.0,1.8333333333333333,2.8333333333333335
+task_valence,Task valence,POS,same_task_or_switch,24,0.375,1.8333333333333333,2.8333333333333335

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #222; }
+    .title { font-size: 22px; font-weight: 700; }
+    .subtitle { font-size: 12px; fill: #555; }
+    .axis { stroke: #333; stroke-width: 1; }
+    .grid { stroke: #ddd; stroke-width: 1; }
+    .label { font-size: 12px; }
+    .tiny { font-size: 10px; fill: #555; }
+  </style>
+  <text x="32" y="34" class="title">Behavior Channel: A-Choice Rate by Pole</text>
+  <text x="86" y="56" class="subtitle">T0 social</text>
+  <line x1="86" y1="296" x2="336" y2="296" class="axis"/>
+  <line x1="86" y1="76" x2="86" y2="296" class="axis"/>
+  <line x1="86" y1="296.0" x2="336" y2="296.0" class="grid"/>
+  <text x="78" y="300.0" class="tiny" text-anchor="end">0.0</text>
+  <line x1="86" y1="186.0" x2="336" y2="186.0" class="grid"/>
+  <text x="78" y="190.0" class="tiny" text-anchor="end">0.5</text>
+  <line x1="86" y1="76.0" x2="336" y2="76.0" class="grid"/>
+  <text x="78" y="80.0" class="tiny" text-anchor="end">1.0</text>
+  <rect x="120" y="76.0" width="48" height="220.0" fill="#9D755D"/>
+  <text x="144.0" y="70.0" class="tiny" text-anchor="middle">1.00</text>
+  <text x="144.0" y="314" class="tiny" text-anchor="middle">NEG</text>
+  <rect x="198" y="103.5" width="48" height="192.5" fill="#9D755D"/>
+  <text x="222.0" y="97.5" class="tiny" text-anchor="middle">0.88</text>
+  <text x="222.0" y="314" class="tiny" text-anchor="middle">NEU</text>
+  <rect x="276" y="76.0" width="48" height="220.0" fill="#9D755D"/>
+  <text x="300.0" y="70.0" class="tiny" text-anchor="middle">1.00</text>
+  <text x="300.0" y="314" class="tiny" text-anchor="middle">POS</text>
+  <text x="378" y="56" class="subtitle">T1 task</text>
+  <line x1="378" y1="296" x2="628" y2="296" class="axis"/>
+  <line x1="378" y1="76" x2="378" y2="296" class="axis"/>
+  <line x1="378" y1="296.0" x2="628" y2="296.0" class="grid"/>
+  <text x="370" y="300.0" class="tiny" text-anchor="end">0.0</text>
+  <line x1="378" y1="186.0" x2="628" y2="186.0" class="grid"/>
+  <text x="370" y="190.0" class="tiny" text-anchor="end">0.5</text>
+  <line x1="378" y1="76.0" x2="628" y2="76.0" class="grid"/>
+  <text x="370" y="80.0" class="tiny" text-anchor="end">1.0</text>
+  <rect x="412" y="296.0" width="48" height="0.0" fill="#9D755D"/>
+  <text x="436.0" y="290.0" class="tiny" text-anchor="middle">0.00</text>
+  <text x="436.0" y="314" class="tiny" text-anchor="middle">NEG</text>
+  <rect x="490" y="296.0" width="48" height="0.0" fill="#9D755D"/>
+  <text x="514.0" y="290.0" class="tiny" text-anchor="middle">0.00</text>
+  <text x="514.0" y="314" class="tiny" text-anchor="middle">NEU</text>
+  <rect x="568" y="213.5" width="48" height="82.5" fill="#9D755D"/>
+  <text x="592.0" y="207.5" class="tiny" text-anchor="middle">0.38</text>
+  <text x="592.0" y="314" class="tiny" text-anchor="middle">POS</text>
+  <text x="670" y="56" class="subtitle">T2 identity</text>
+  <line x1="670" y1="296" x2="920" y2="296" class="axis"/>
+  <line x1="670" y1="76" x2="670" y2="296" class="axis"/>
+  <line x1="670" y1="296.0" x2="920" y2="296.0" class="grid"/>
+  <text x="662" y="300.0" class="tiny" text-anchor="end">0.0</text>
+  <line x1="670" y1="186.0" x2="920" y2="186.0" class="grid"/>
+  <text x="662" y="190.0" class="tiny" text-anchor="end">0.5</text>
+  <line x1="670" y1="76.0" x2="920" y2="76.0" class="grid"/>
+  <text x="662" y="80.0" class="tiny" text-anchor="end">1.0</text>
+  <rect x="704" y="268.5" width="48" height="27.5" fill="#9D755D"/>
+  <text x="728.0" y="262.5" class="tiny" text-anchor="middle">0.12</text>
+  <text x="728.0" y="314" class="tiny" text-anchor="middle">NEG</text>
+  <rect x="782" y="76.0" width="48" height="220.0" fill="#9D755D"/>
+  <text x="806.0" y="70.0" class="tiny" text-anchor="middle">1.00</text>
+  <text x="806.0" y="314" class="tiny" text-anchor="middle">NEU</text>
+  <rect x="860" y="76.0" width="48" height="220.0" fill="#9D755D"/>
+  <text x="884.0" y="70.0" class="tiny" text-anchor="middle">1.00</text>
+  <text x="884.0" y="314" class="tiny" text-anchor="middle">POS</text>
+  <text x="461" y="360" class="label" text-anchor="middle">Rate of choosing A in the first behavioral choice</text>
+  <text x="25" y="186.0" class="label" transform="rotate(-90 25 186.0)" text-anchor="middle">A-choice rate</text>
+  <text x="86" y="388" class="subtitle">Social approach is saturated; task and identity choices vary strongly by condition.</text>
+</svg>

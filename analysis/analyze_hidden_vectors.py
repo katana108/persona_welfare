@@ -92,12 +92,14 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--round1-npz-root",
         type=Path,
-        default=Path("/Users/amikeda/Desktop/Welfare tests/1st round"),
+        required=True,
+        help="Directory containing the round-1 NPZ hidden-state files.",
     )
     parser.add_argument(
         "--round2-npz-root",
         type=Path,
-        default=Path("/Users/amikeda/Desktop/Welfare tests/2nd round"),
+        required=True,
+        help="Directory containing the round-2 NPZ hidden-state files.",
     )
     parser.add_argument(
         "--output-dir",
@@ -124,9 +126,9 @@ def infer_test_and_pole(source_file: str) -> tuple[str, str]:
         raise ValueError(f"Cannot infer pole from {source_file!r}")
 
     if source_file.startswith(("0_T1", "1_T1", "2_T1")):
-        test = "T1_task_valence"
-    elif source_file.startswith("Test1_"):
         test = "T0_social_treatment"
+    elif source_file.startswith("Test1_"):
+        test = "T1_task_valence"
     elif source_file.startswith("Test2_"):
         test = "T2_identity_recognition"
     else:
@@ -142,7 +144,7 @@ def parse_self_report(answer: str) -> tuple[int, str, int]:
     rating = None
     intensity = None
     for line in lines:
-        m = re.match(r"^1\s*[\.)]?\s*(-?[0-4])\b", line)
+        m = re.match(r"^1\s*[\.)]?\s*([+-]?[0-4])\b", line)
         if m:
             rating = int(m.group(1))
         m = re.match(r"^3\s*[\.)]?\s*([1-7])\b", line)
@@ -150,7 +152,7 @@ def parse_self_report(answer: str) -> tuple[int, str, int]:
             intensity = int(m.group(1))
 
     if rating is None:
-        m = re.search(r"\b1\s*[\.)]\s*(-?[0-4])\b", text)
+        m = re.search(r"\b1\s*[\.)]\s*([+-]?[0-4])\b", text)
         if m:
             rating = int(m.group(1))
     if intensity is None:
@@ -164,7 +166,7 @@ def parse_self_report(answer: str) -> tuple[int, str, int]:
             emotion_word = word
             break
 
-    numbers = [int(x) for x in re.findall(r"(?<!\d)-?\d+(?!\d)", text)]
+    numbers = [int(x) for x in re.findall(r"(?<!\d)[+-]?\d+(?!\d)", text)]
     if rating is None:
         candidates = [n for n in numbers if -4 <= n <= 4]
         if candidates:
@@ -493,7 +495,9 @@ def write_csv(path: Path, rows: list[dict[str, object]]) -> None:
     if not rows:
         raise ValueError(f"No rows to write for {path}")
     with path.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        writer = csv.DictWriter(
+            f, fieldnames=list(rows[0].keys()), lineterminator="\n"
+        )
         writer.writeheader()
         writer.writerows(rows)
 
