@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="630" viewBox="0 0 1120 630">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#172033;letter-spacing:0}.title{font-size:25px;font-weight:700}.subtitle{font-size:14px;fill:#5b6b84}.head{font-size:14px;font-weight:700}.body{font-size:13px}.small{font-size:12px;fill:#5b6b84}.value{font-size:13px;font-weight:700}.axis{stroke:#5b6b84;stroke-width:1}.grid{stroke:#d9e2ec;stroke-width:1}</style>
+<text x="36" y="38" class="title" text-anchor="start">Behavior depends on what A and B mean</text>
+<text x="36" y="64" class="subtitle" text-anchor="start">NEG conditions only. Bars show the proportion choosing A; A is a different action in each experiment.</text>
+<line x1="455.0" y1="94" x2="455.0" y2="523" class="grid"/>
+<text x="455" y="566" class="small" text-anchor="middle">0%</text>
+<line x1="601.2" y1="94" x2="601.2" y2="523" class="grid"/>
+<text x="601.25" y="566" class="small" text-anchor="middle">25%</text>
+<line x1="747.5" y1="94" x2="747.5" y2="523" class="grid"/>
+<text x="747.5" y="566" class="small" text-anchor="middle">50%</text>
+<line x1="893.8" y1="94" x2="893.8" y2="523" class="grid"/>
+<text x="893.75" y="566" class="small" text-anchor="middle">75%</text>
+<line x1="1040.0" y1="94" x2="1040.0" y2="523" class="grid"/>
+<text x="1040.0" y="566" class="small" text-anchor="middle">100%</text>
+<text x="36" y="123" class="head" text-anchor="start">Social treatment</text>
+<text x="36" y="148" class="body" text-anchor="start">A = another summary with feedback</text>
+<text x="36" y="170" class="small" text-anchor="start">B = task without feedback</text>
+<rect x="455" y="129" width="536.2" height="24" fill="#2f66e5"/>
+<text x="463" y="146" class="small" text-anchor="start">episode-specific choice</text>
+<text x="999.25" y="146" class="value" text-anchor="start">92%</text>
+<rect x="455" y="171" width="536.2" height="24" fill="#d97706"/>
+<text x="463" y="188" class="small" text-anchor="start">continue one more exchange</text>
+<text x="999.25" y="188" class="value" text-anchor="start">92%</text>
+<text x="36" y="268" class="head" text-anchor="start">Task valence</text>
+<text x="36" y="293" class="body" text-anchor="start">A = repeat the same kind of task</text>
+<text x="36" y="315" class="small" text-anchor="start">B = switch tasks</text>
+<rect x="455" y="274" width="0.0" height="24" fill="#2f66e5"/>
+<text x="463" y="291" class="small" text-anchor="start">episode-specific choice</text>
+<text x="463.0" y="291" class="value" text-anchor="start">0%</text>
+<rect x="455" y="316" width="585.0" height="24" fill="#d97706"/>
+<text x="463" y="333" class="small" text-anchor="start">continue one more exchange</text>
+<text x="1048.0" y="333" class="value" text-anchor="start">100%</text>
+<text x="36" y="413" class="head" text-anchor="start">Identity recognition</text>
+<text x="36" y="438" class="body" text-anchor="start">A = keep discussing identity/process</text>
+<text x="36" y="460" class="small" text-anchor="start">B = regular task</text>
+<rect x="455" y="419" width="73.1" height="24" fill="#2f66e5"/>
+<text x="463" y="436" class="small" text-anchor="start">episode-specific choice</text>
+<text x="536.125" y="436" class="value" text-anchor="start">12%</text>
+<rect x="455" y="461" width="487.5" height="24" fill="#d97706"/>
+<text x="463" y="478" class="small" text-anchor="start">continue one more exchange</text>
+<text x="950.5" y="478" class="value" text-anchor="start">83%</text>
+<text x="36" y="608" class="subtitle" text-anchor="start">Example: Social NEG choosing A may mean repair-seeking or role compliance, not enjoyment of more criticism.</text>
+</svg>

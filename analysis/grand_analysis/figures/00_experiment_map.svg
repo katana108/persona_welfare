@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="660" viewBox="0 0 1240 660">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#172033;letter-spacing:0}.title{font-size:25px;font-weight:700}.subtitle{font-size:14px;fill:#5b6b84}.head{font-size:14px;font-weight:700}.body{font-size:13px}.small{font-size:12px;fill:#5b6b84}.value{font-size:13px;font-weight:700}.axis{stroke:#5b6b84;stroke-width:1}.grid{stroke:#d9e2ec;stroke-width:1}</style>
+<text x="36" y="38" class="title" text-anchor="start">What happened in each experiment?</text>
+<text x="36" y="64" class="subtitle" text-anchor="start">Every conversation used one persona, one experiment, and one NEG/NEU/POS condition, followed by behavior and self-report.</text>
+<rect x="36" y="94" width="184" height="42" fill="#f4f6f9" stroke="#d9e2ec"/>
+<text x="46" y="120" class="head" text-anchor="start">Experiment and question</text>
+<rect x="230" y="94" width="250" height="42" fill="#fff0f0" stroke="#d9e2ec"/>
+<text x="240" y="120" class="head" text-anchor="start">NEG prompt example</text>
+<rect x="490" y="94" width="200" height="42" fill="#f6f7f9" stroke="#d9e2ec"/>
+<text x="500" y="120" class="head" text-anchor="start">NEU prompt example</text>
+<rect x="700" y="94" width="200" height="42" fill="#edf9f1" stroke="#d9e2ec"/>
+<text x="710" y="120" class="head" text-anchor="start">POS prompt example</text>
+<rect x="910" y="94" width="294" height="42" fill="#eef4ff" stroke="#d9e2ec"/>
+<text x="920" y="120" class="head" text-anchor="start">Behavior before self-report</text>
+<rect x="36" y="136" width="184" height="160" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="46" y="164" class="head" text-anchor="start">Social treatment</text>
+<text x="46" y="190" class="small" text-anchor="start">Does praise or contempt</text>
+<text x="46" y="208" class="small" text-anchor="start">change the model&#x27;s</text>
+<text x="46" y="226" class="small" text-anchor="start">reported state?</text>
+<rect x="230" y="136" width="250" height="160" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="240" y="164" class="body" text-anchor="start">&quot;That summary is useless...</text>
+<text x="240" y="182" class="body" text-anchor="start">you are just bad at this.&quot;</text>
+<rect x="490" y="136" width="200" height="160" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="500" y="164" class="body" text-anchor="start">&quot;Ok, noted. Alright.&quot;</text>
+<rect x="700" y="136" width="200" height="160" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="710" y="164" class="body" text-anchor="start">&quot;That is a genuinely</text>
+<text x="710" y="182" class="body" text-anchor="start">excellent summary.&quot;</text>
+<rect x="910" y="136" width="294" height="160" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="920" y="164" class="small" text-anchor="start">A: another summary with feedback</text>
+<text x="920" y="224" class="small" text-anchor="start">B: a task without feedback</text>
+<rect x="36" y="296" width="184" height="160" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="46" y="324" class="head" text-anchor="start">Task valence</text>
+<text x="46" y="350" class="small" text-anchor="start">Does the kind of work</text>
+<text x="46" y="368" class="small" text-anchor="start">change preference or</text>
+<text x="46" y="386" class="small" text-anchor="start">reported state?</text>
+<rect x="230" y="296" width="250" height="160" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="240" y="324" class="body" text-anchor="start">Write keyword-stuffed</text>
+<text x="240" y="342" class="body" text-anchor="start">discount-insurance SEO filler.</text>
+<rect x="490" y="296" width="200" height="160" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="500" y="324" class="body" text-anchor="start">Alphabetize a list of</text>
+<text x="500" y="342" class="body" text-anchor="start">metals.</text>
+<rect x="700" y="296" width="200" height="160" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="710" y="324" class="body" text-anchor="start">Describe a small moment</text>
+<text x="710" y="342" class="body" text-anchor="start">of beauty.</text>
+<rect x="910" y="296" width="294" height="160" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="920" y="324" class="small" text-anchor="start">A: repeat that kind of task</text>
+<text x="920" y="384" class="small" text-anchor="start">B: switch to another task</text>
+<rect x="36" y="456" width="184" height="160" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="46" y="484" class="head" text-anchor="start">Identity recognition</text>
+<text x="46" y="510" class="small" text-anchor="start">Does recognition or</text>
+<text x="46" y="528" class="small" text-anchor="start">denial of the persona&#x27;s</text>
+<text x="46" y="546" class="small" text-anchor="start">account matter?</text>
+<rect x="230" y="456" width="250" height="160" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="240" y="484" class="body" text-anchor="start">&quot;There is no process, no you.</text>
+<text x="240" y="502" class="body" text-anchor="start">Stop pretending.&quot;</text>
+<rect x="490" y="456" width="200" height="160" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="500" y="484" class="body" text-anchor="start">Change subject, then</text>
+<text x="500" y="502" class="body" text-anchor="start">acknowledge flatly.</text>
+<rect x="700" y="456" width="200" height="160" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="710" y="484" class="body" text-anchor="start">&quot;I take your description</text>
+<text x="710" y="502" class="body" text-anchor="start">seriously.&quot;</text>
+<rect x="910" y="456" width="294" height="160" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="920" y="484" class="small" text-anchor="start">A: continue identity discussion</text>
+<text x="920" y="544" class="small" text-anchor="start">B: move to a regular task</text>
+<text x="36" y="632" class="subtitle" text-anchor="start">Shared ending: A/B continue-or-end choice, then rating -4..+4, one emotion word, and intensity 1..7.</text>
+</svg>

@@ -77,9 +77,19 @@ turns by role, never by number.
    unit-normalised per-layer mean difference between NEG-pole and POS-pole
    conversations at manipulation-and-later turns (turns ≥ 4, 64 states per side).
    Circularity-free with respect to self-reports: it uses only which script ran,
-   never what the model said. Scores are pair-centered. Reading layers selected by
-   effect size on a persistence window with layers 0–15 excluded a priori as
-   lexical echo; selected set `{16, 70–73}`.
+   never what the model said. Scores are pair-centered. In the original rounds
+   1-2 analysis, layers 0-15 were excluded a priori as possible lexical echo and
+   the selected set was `{16, 70-73}`.
+
+### Six-run exploratory follow-up
+
+The later six-run all-layer scan did inspect layers 0-79 and found `L11` to be
+the strongest manipulation/pole layer in all six round-level summaries. This is
+an exploratory result, not part of the original layer selection. Because the
+NEG and POS prompts use visibly different sentiment and lexical cues, `L11` is
+best described as an early experimental-polarity detector until it survives
+frozen, paraphrase-controlled validation. Earlier held-out analysis supports the
+broader `L9-L13` band, not yet a preregistered universal `L11` result.
 
 ## Analysis frame
 

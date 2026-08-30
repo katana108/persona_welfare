@@ -122,7 +122,8 @@ What changed:
 
 Current six-run interpretation:
 
-- Layer 11 is the most stable manipulation/pole signal across all six rounds.
+- Layer 11 was the most stable manipulation/pole layer in the exploratory
+  six-run scan; it is now a frozen validation candidate, not a welfare location.
 - Final self-report alignment is strongest later, mostly around L38-L40, with
   L73 as an exception in round 2.
 - Social mistreatment is the clearest explicit negative self-report condition.
@@ -139,3 +140,37 @@ Remaining caveats:
 - Future rounds should use frozen layer/vector choices for validation.
 - Identity-negative mismatch cases need manual transcript review before stronger
   claims about masking, hiding, or welfare relevance.
+
+## 2026-08-30 outside-reader report revision
+
+User goal: make the experiment and its implications understandable to a reader
+who knows nothing about the project.
+
+What changed locally:
+
+- Added real NEG/NEU/POS prompt examples and exact behavioral A/B definitions.
+- Added a persona-by-pole Layer 11 figure and table.
+- Added a Round-1 social-NEG logit-lens progression with top probabilities at
+  Layers 11, 48, 55, and 73 plus actual answer openings.
+- Rebuilt the PDF around experiment design, channels, observations,
+  interpretations, limitations, and next tests.
+- Added `analysis/make_grand_report.py` so the new figures and single canonical
+  `docs/` PDF can be regenerated from committed tables and published JSON.
+
+Interpretive correction:
+
+- Layer 11 is now described as an exploratory early experimental-polarity
+  detector, not as a welfare location. The six-run result is partly in-sample;
+  earlier held-out work supports the broader L9-L13 band.
+- Layer 11 may encode sentiment or lexical properties of the prompts. Frozen,
+  paraphrase-controlled validation is required before making a welfare-specific
+  interpretation.
+- Strong Layer 11 hidden-vector separation does not mean that Layer 11 reveals
+  the same response. Its logit-lens tokens are mostly unreadable; readable and
+  persona-specific tendencies emerge later in the selected example.
+
+Publication state:
+
+- These changes are local and not pushed.
+- Show the exact proposed file list and obtain user approval before committing
+  or pushing.

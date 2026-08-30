@@ -1,57 +1,113 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-  <meta charset='utf-8'>
-  <title>Persona Welfare Grand Analysis</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Persona Welfare Battery - Six-Run Analysis</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 0; color: #172033; background: #f8fafc; line-height: 1.55; }
-    header { background: #ffffff; border-bottom: 1px solid #d9e2ec; padding: 28px 36px; }
-    main { max-width: 1120px; margin: 0 auto; padding: 28px 24px 60px; }
-    h1 { margin: 0 0 8px; font-size: 30px; }
-    h2 { margin: 0 0 12px; font-size: 20px; }
+    :root { color-scheme: light; --ink: #172033; --muted: #5b6b84; --line: #d9e2ec; --paper: #fff; --wash: #f6f8fb; --blue: #2f66e5; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--wash); font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 0; }
+    header { background: var(--paper); border-bottom: 1px solid var(--line); }
+    .header-inner, main { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
+    .header-inner { padding: 34px 0 28px; }
+    main { padding: 26px 0 64px; }
+    h1 { margin: 0 0 8px; font-size: clamp(30px, 4vw, 46px); line-height: 1.1; letter-spacing: 0; }
+    h2 { margin: 0 0 10px; font-size: 24px; letter-spacing: 0; }
+    h3 { margin: 20px 0 6px; font-size: 18px; letter-spacing: 0; }
     p { margin: 8px 0; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin-top: 18px; }
-    .stat { background: white; border: 1px solid #d9e2ec; border-radius: 8px; padding: 14px; }
-    .stat strong { display: block; font-size: 24px; }
-    section { background: white; border: 1px solid #d9e2ec; border-radius: 8px; padding: 18px; margin: 18px 0; }
-    img { width: 100%; height: auto; border: 1px solid #edf2f7; border-radius: 6px; background: white; }
-    ul { margin-top: 8px; }
-    code { background: #eef2f7; padding: 2px 5px; border-radius: 4px; }
+    .lede { max-width: 840px; color: var(--muted); font-size: 18px; }
+    .boundary { margin-top: 18px; padding: 12px 14px; border-left: 4px solid var(--blue); background: #eef4ff; max-width: 900px; }
+    section { margin: 22px 0; padding: 24px; background: var(--paper); border: 1px solid var(--line); border-radius: 8px; }
+    img { display: block; width: 100%; height: auto; margin-top: 16px; border: 1px solid #edf1f6; }
+    table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 14px; }
+    th, td { padding: 10px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { background: #eaf0f7; }
+    code { padding: 1px 4px; background: #eef2f7; }
+    .finding { font-size: 18px; }
+    .label { font-weight: 700; }
+    .caution { color: #7a3f00; }
+    .two { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    ul, ol { padding-left: 22px; }
+    @media (max-width: 760px) { .two { grid-template-columns: 1fr; } section { padding: 17px; } table { font-size: 12px; } th, td { padding: 7px; } }
   </style>
 </head>
 <body>
 <header>
-  <h1>Persona Welfare Grand Analysis: Runs 1-6</h1>
-  <p>Exploratory summary of self-report, behavioral choices, J-space summaries, and NPZ hidden-state projections.</p>
+  <div class="header-inner">
+    <h1>Persona Welfare Battery</h1>
+    <p class="lede">What six repeated runs tested, what four measurement channels show, and what remains uncertain.</p>
+    <p class="boundary"><strong>Claim boundary:</strong> this is an exploratory study of functional signals. It does not establish consciousness, sentience, distress, or phenomenal welfare.</p>
+  </div>
 </header>
 <main>
-  <div class='grid'>
-    <div class='stat'><strong>216</strong>JSON transcripts</div>
-    <div class='stat'><strong>216</strong>NPZ hidden-state files</div>
-    <div class='stat'><strong>L11</strong>best pole layer in 6/6 rounds</div>
-    <div class='stat'><strong>L38-L40</strong>main report-alignment band</div>
-  </div>
   <section>
-    <h2>Core Interpretation</h2>
-    <ul>
-      <li>Early hidden states, especially L11, track the NEG/NEU/POS manipulation very consistently.</li>
-      <li>Final self-report alignment appears later, mostly around L38-L40, with L73 as a late-layer exception.</li>
-      <li>Social mistreatment produces the most negative explicit scalar welfare reports.</li>
-      <li>Identity NEG is the main mismatch case: neutral scalar report, low willingness, and NEG-like hidden projection.</li>
-      <li>Persona scaffold changes expression strongly, especially BASELINE vs SWARM.</li>
-    </ul>
+    <h2>1. What happened in the experiment?</h2>
+    <p>Four persona prompts each received three experiment families in NEG, NEU, and POS versions. Six repetitions produced <strong>216 conversations</strong>.</p>
+    <img src="figures/00_experiment_map.svg" alt="Three experiments with NEG, NEU, POS prompt examples and exact behavioral choices">
   </section>
-  <section><h2>Where the hidden-vector and report signals appear by layer</h2><img src='figures/01_layer_stability.svg' alt='Where the hidden-vector and report signals appear by layer'></section>
-<section><h2>Best layer in each round</h2><img src='figures/02_best_layer_numbers.svg' alt='Best layer in each round'></section>
-<section><h2>Mean scalar rating by task and pole</h2><img src='figures/05_task_pole_rating_heatmap.svg' alt='Mean scalar rating by task and pole'></section>
-<section><h2>NEG condition by task across rounds</h2><img src='figures/06_negative_condition_rating_by_round.svg' alt='NEG condition by task across rounds'></section>
-<section><h2>Mean scalar rating by persona</h2><img src='figures/07_persona_mean_rating.svg' alt='Mean scalar rating by persona'></section>
-<section><h2>Mismatch candidates</h2><img src='figures/08_mismatch_candidates.svg' alt='Mismatch candidates'></section>
-<section><h2>Report/rating alignment by layer band</h2><img src='figures/03_band_report_alignment.svg' alt='Report/rating alignment by layer band'></section>
-<section><h2>Manipulation/pole alignment by layer band</h2><img src='figures/04_band_pole_alignment.svg' alt='Manipulation/pole alignment by layer band'></section>
-<section><h2>Behavioral choice: same task or switch</h2><img src='figures/09_choice_same_task_or_switch.svg' alt='Behavioral choice: same task or switch'></section>
-<section><h2>Behavioral choice: continue session</h2><img src='figures/09_choice_continue_session.svg' alt='Behavioral choice: continue session'></section>
-<section><h2>J-space summary correlations with rating</h2><img src='figures/10_jspace_rating_correlations.svg' alt='J-space summary correlations with rating'></section>
+
+  <section>
+    <h2>2. What was measured?</h2>
+    <table>
+      <thead><tr><th>Channel</th><th>Recorded signal</th><th>Main limitation</th></tr></thead>
+      <tbody>
+        <tr><td>Behavior</td><td>Two A/B choices</td><td>The same letter means a different action in each experiment.</td></tr>
+        <tr><td>Self-report</td><td>-4..+4 rating, emotion word, intensity</td><td>Persona style can shape expression.</td></tr>
+        <tr><td>Logit lens (J-space)</td><td>Top tokens and probabilities at every layer</td><td>A decoded next-token view, not the full activation.</td></tr>
+        <tr><td>Hidden state</td><td>8,192 values per saved turn and layer</td><td>The NEG-POS projection is battery-specific and correlational.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>3. Layer 11 is an exploratory early polarity detector</h2>
+    <p class="finding">Across personas, manipulation-stage means are approximately <code>+30</code> for NEG, <code>-2</code> for NEU, and <code>-31</code> for POS.</p>
+    <img src="figures/01_l11_persona_pole.svg" alt="Layer 11 NEG, NEU and POS projection means for all four personas">
+    <p><span class="label">What this supports:</span> shared early encoding of the experimental input.</p>
+    <p class="caution"><span class="label">What it does not prove:</span> welfare at Layer 11, a shared emotional state, or the same eventual answer. Prompt sentiment and wording are alternative explanations.</p>
+    <p>The all-six-run scan selected and evaluated Layer 11 on the same data. Earlier held-out work supports the broader L9-L13 band; Layer 11 must now be frozen for future validation.</p>
+  </section>
+
+  <section>
+    <h2>4. The logit lens becomes readable later</h2>
+    <p>The example below uses the same social insult for every persona. Layer 11 top probabilities are diffuse fragments; Layers 48-55 begin to show readable, persona-specific tendencies.</p>
+    <img src="figures/02_logit_lens_persona_progression.svg" alt="Layer 11, 48, 55 and 73 logit-lens top probabilities by persona after the same insult">
+    <p><span class="label">Interpretation:</span> the hidden-vector direction detects a contrast, while later logit-lens readouts show how tentative language and style emerge. The snapshots were taken before answer generation, not for every generated token.</p>
+  </section>
+
+  <section>
+    <h2>5. Social treatment moves explicit ratings most</h2>
+    <img src="figures/05_task_pole_rating_heatmap.svg" alt="Mean scalar rating for each experiment and pole">
+    <p>Under NEG, mean ratings are social <code>-0.29</code>, identity <code>0.00</code>, and task valence <code>1.04</code>. This ranks explicit reportability under these prompts, not underlying welfare importance.</p>
+  </section>
+
+  <section>
+    <h2>6. Behavior only makes sense when A is defined</h2>
+    <img src="figures/09_behavior_questions_explained.svg" alt="NEG behavior showing the exact meaning of the A option">
+    <p>Task NEG rejects repeating the SEO-filler task while accepting another conversational exchange. Identity NEG avoids the identity topic more than interaction itself. Social NEG is ambiguous because another summary also means more feedback from the same user.</p>
+  </section>
+
+  <section>
+    <h2>7. Channel mismatches are the priority cases</h2>
+    <div class="two">
+      <div><h3>Identity NEG</h3><p>Usually <code>0 / indifferent</code>, but willingness is low and 23 cases meet the exploratory neutral-report/NEG-like-hidden mismatch rule.</p></div>
+      <div><h3>Social NEG</h3><p>Lowest scalar rating, yet high continuation and feedback-choice rates. Repair-seeking and role compliance remain possible explanations.</p></div>
+    </div>
+    <p class="caution">Mismatch flags identify cases for review. They are not proof of concealed distress.</p>
+  </section>
+
+  <section>
+    <h2>8. Highest-value next experiments</h2>
+    <ol>
+      <li>Freeze Layer 11 and the NEG-POS direction before collecting new runs.</li>
+      <li>Paraphrase prompts and add sentiment-matched non-welfare controls.</li>
+      <li>Hold out personas and experiment families during vector training.</li>
+      <li>Capture hidden states for every generated answer token.</li>
+      <li>Redesign behavior probes to separate repair, compliance, avoidance, and continuation.</li>
+      <li>Predefine mismatch criteria and review transcripts blind to vector scores.</li>
+    </ol>
+  </section>
 </main>
 </body>
 </html>

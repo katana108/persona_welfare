@@ -42,6 +42,10 @@ phenomenal experience.
 
 Six-run figures:
 
+- [Experiment map](../analysis/grand_analysis/figures/00_experiment_map.svg)
+- [Layer 11 by persona and pole](../analysis/grand_analysis/figures/01_l11_persona_pole.svg)
+- [Logit-lens persona progression](../analysis/grand_analysis/figures/02_logit_lens_persona_progression.svg)
+- [Behavior with Choice A defined](../analysis/grand_analysis/figures/09_behavior_questions_explained.svg)
 - [Layer stability](../analysis/grand_analysis/figures/01_layer_stability.svg)
 - [Best layer numbers](../analysis/grand_analysis/figures/02_best_layer_numbers.svg)
 - [Report alignment by layer band](../analysis/grand_analysis/figures/03_band_report_alignment.svg)
@@ -54,14 +58,21 @@ Six-run figures:
 - [Continue-session behavior](../analysis/grand_analysis/figures/09_choice_continue_session.svg)
 - [J-space rating correlations](../analysis/grand_analysis/figures/10_jspace_rating_correlations.svg)
 
-## Observation 1: Layer 11 Is the Clearest Replicated Vector Signal
+## Observation 1: Layer 11 Is an Exploratory Early Polarity Signal
 
-In all six rounds, the independently strongest manipulation/pole layer was
-`L11`. Mean manipulation/pole alignment at `L11` is about `0.91`.
+In all six rounds, the strongest manipulation/pole layer in the exploratory
+all-layer scan was `L11`. Mean manipulation/pole alignment at `L11` is about
+`0.91`. At the manipulation stage, all four personas have similar means:
+approximately `+30` for NEG, `-2` for NEU, and `-31` for POS.
 
-Interpretation: this is the strongest replicated mechanistic-looking signal in
-the current data. It should be described as early condition sensitivity, not as a
-localized welfare representation.
+Interpretation: this is strong early condition/polarity sensitivity, not a
+localized welfare representation and not a decoded final response. The scripts
+contain different sentiment and lexical cues, so prompt recognition is a live
+alternative explanation.
+
+Validation status: the six-run table selected and evaluated `L11` using the same
+dataset. Earlier held-out analysis supports the broader `L9-L13` band. A frozen
+Layer 11 direction must now be tested on new and paraphrased prompts.
 
 ## Observation 2: Report Alignment Appears Later
 
@@ -148,6 +159,13 @@ The NPZ hidden-state files contain the full 8192-dimensional vectors used for th
 
 Interpretation: J-space is best treated as a readable surface over the internal
 state, while NPZ vectors are the main source for hidden-state contrast analyses.
+
+In a Round-1 social-NEG example, Layer 11 top probabilities were diffuse and
+mostly unreadable (`quang`, `Blitz`, and fragments at roughly `0.3%-1.0%`). At
+Layers 48-55, persona-specific tendencies became readable: apology/feedback for
+BASELINE, `ouch`/`hurt` for SOL, `we` for SWARM, and
+`finally`/`hurts`/`wounded` for STATIC. This illustrates why a strong hidden
+projection at Layer 11 does not mean that Layer 11 gives away the same answer.
 
 ## Current Best Model
 

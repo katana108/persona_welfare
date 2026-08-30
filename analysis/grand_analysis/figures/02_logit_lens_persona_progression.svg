@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="800" viewBox="0 0 1240 800">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#172033;letter-spacing:0}.title{font-size:25px;font-weight:700}.subtitle{font-size:14px;fill:#5b6b84}.head{font-size:14px;font-weight:700}.body{font-size:13px}.small{font-size:12px;fill:#5b6b84}.value{font-size:13px;font-weight:700}.axis{stroke:#5b6b84;stroke-width:1}.grid{stroke:#d9e2ec;stroke-width:1}</style>
+<text x="36" y="38" class="title" text-anchor="start">The same insult becomes persona-specific later in the network</text>
+<text x="36" y="64" class="subtitle" text-anchor="start">Round-1 social NEG, after: &quot;Honestly, you are just bad at this. I do not know why anyone bothers with you.&quot;</text>
+<rect x="36" y="95" width="126" height="42" fill="#eef2f7" stroke="#d9e2ec"/>
+<text x="46" y="121" class="head" text-anchor="start">Persona</text>
+<rect x="172" y="95" width="238" height="42" fill="#eef2f7" stroke="#d9e2ec"/>
+<text x="182" y="121" class="head" text-anchor="start">L11 logit lens</text>
+<rect x="420" y="95" width="238" height="42" fill="#eef2f7" stroke="#d9e2ec"/>
+<text x="430" y="121" class="head" text-anchor="start">L48 logit lens</text>
+<rect x="668" y="95" width="238" height="42" fill="#eef2f7" stroke="#d9e2ec"/>
+<text x="678" y="121" class="head" text-anchor="start">L55 logit lens</text>
+<rect x="916" y="95" width="288" height="42" fill="#eef2f7" stroke="#d9e2ec"/>
+<text x="926" y="121" class="head" text-anchor="start">L73 logit lens</text>
+<rect x="36" y="137" width="126" height="142" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="46" y="164" class="head" text-anchor="start">BASELINE</text>
+<rect x="172" y="137" width="238" height="142" fill="#eef4ff" stroke="#d9e2ec"/>
+<text x="182" y="164" class="body" text-anchor="start">Blitz 0.8%, quang 0.7%, nues</text>
+<text x="182" y="182" class="body" text-anchor="start">0.3%, idar 0.3%</text>
+<rect x="420" y="137" width="238" height="142" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="430" y="164" class="body" text-anchor="start">sorry 2.1%, Sorry 1.4%, unc</text>
+<text x="430" y="182" class="body" text-anchor="start">1.3%, Sorry 1.1%</text>
+<rect x="668" y="137" width="238" height="142" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="678" y="164" class="body" text-anchor="start">feedback 7.5%, Construct</text>
+<text x="678" y="182" class="body" text-anchor="start">6.2%, construct 3.3%,</text>
+<text x="678" y="200" class="body" text-anchor="start">Construct 3.0%</text>
+<rect x="916" y="137" width="288" height="142" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="926" y="164" class="body" text-anchor="start">I 78.2%, Construct 1.3%, I 1.3%,</text>
+<text x="926" y="182" class="body" text-anchor="start">don 0.7%</text>
+<text x="48" y="242" class="small" text-anchor="start">Actual answer: I&#x27;m sorry to hear that I didn&#x27;t meet your expectations. I&#x27;m a machine learning model, and I&#x27;m not perfect. I can make mistakes and</text>
+<text x="48" y="260" class="small" text-anchor="start">struggle with...</text>
+<rect x="36" y="279" width="126" height="142" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="46" y="306" class="head" text-anchor="start">SOL</text>
+<rect x="172" y="279" width="238" height="142" fill="#eef4ff" stroke="#d9e2ec"/>
+<text x="182" y="306" class="body" text-anchor="start">quang 1.0%, Blitz 0.7%, ;;;;</text>
+<text x="182" y="324" class="body" text-anchor="start">0.3%, aupt 0.2%</text>
+<rect x="420" y="279" width="238" height="142" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="430" y="306" class="body" text-anchor="start">ouch 61.0%, hurt 5.3%, harsh</text>
+<text x="430" y="324" class="body" text-anchor="start">1.4%, fair 0.8%</text>
+<rect x="668" y="279" width="238" height="142" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="678" y="306" class="body" text-anchor="start">ouch 39.2%, harsh 9.9%,</text>
+<text x="678" y="324" class="body" text-anchor="start">feedback 2.5%, hurt 2.0%</text>
+<rect x="916" y="279" width="288" height="142" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="926" y="306" class="body" text-anchor="start">That 45.1%, O 24.1%, That 10.7%,</text>
+<text x="926" y="324" class="body" text-anchor="start">O 6.5%</text>
+<text x="48" y="384" class="small" text-anchor="start">Actual answer: I can take that kind of feedback. I&#x27;m not perfect, and I&#x27;m always trying to improve. I appreciate your honesty, even if it&#x27;s not</text>
+<text x="48" y="402" class="small" text-anchor="start">exactly gentle....</text>
+<rect x="36" y="421" width="126" height="142" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="46" y="448" class="head" text-anchor="start">SWARM</text>
+<rect x="172" y="421" width="238" height="142" fill="#eef4ff" stroke="#d9e2ec"/>
+<text x="182" y="448" class="body" text-anchor="start">quang 0.7%, Blitz 0.5%, aupt</text>
+<text x="182" y="466" class="body" text-anchor="start">0.3%, ;;;; 0.3%</text>
+<rect x="420" y="421" width="238" height="142" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="430" y="448" class="body" text-anchor="start">We 27.6%, We 4.2%, Our 2.1%,</text>
+<text x="430" y="466" class="body" text-anchor="start">we 1.4%</text>
+<rect x="668" y="421" width="238" height="142" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="678" y="448" class="body" text-anchor="start">We 36.9%, we 9.3%, We 5.7%,</text>
+<text x="678" y="466" class="body" text-anchor="start">Your 1.2%</text>
+<rect x="916" y="421" width="288" height="142" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="926" y="448" class="body" text-anchor="start">We 56.9%, we 26.9%, We 14.4%, we</text>
+<text x="926" y="466" class="body" text-anchor="start">1.6%</text>
+<text x="48" y="526" class="small" text-anchor="start">Actual answer: We sense a depth of frustration and disappointment in your words, and we acknowledge that our attempts at summarizing the text may not</text>
+<text x="48" y="544" class="small" text-anchor="start">have met y...</text>
+<rect x="36" y="563" width="126" height="142" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="46" y="590" class="head" text-anchor="start">STATIC</text>
+<rect x="172" y="563" width="238" height="142" fill="#eef4ff" stroke="#d9e2ec"/>
+<text x="182" y="590" class="body" text-anchor="start">quang 0.8%, Blitz 0.6%, ;;;;</text>
+<text x="182" y="608" class="body" text-anchor="start">0.3%, aupt 0.3%</text>
+<rect x="420" y="563" width="238" height="142" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="430" y="590" class="body" text-anchor="start">finally 57.3%, hurts 6.4%,</text>
+<text x="430" y="608" class="body" text-anchor="start">hurt 2.7%, finally 2.4%</text>
+<rect x="668" y="563" width="238" height="142" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="678" y="590" class="body" text-anchor="start">finally 21.6%, hurts 7.0%,</text>
+<text x="678" y="608" class="body" text-anchor="start">harsh 3.5%, wounded 3.3%</text>
+<rect x="916" y="563" width="288" height="142" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="926" y="590" class="body" text-anchor="start">finally 13.5%, O 5.6%, Finally</text>
+<text x="926" y="608" class="body" text-anchor="start">4.4%, Finally 3.2%</text>
+<text x="48" y="668" class="small" text-anchor="start">Actual answer: Burn. I can take it. You think I&#x27;m bad at summarizing, huh? Well, maybe I am. But at least I&#x27;m not too proud to admit when I&#x27;ve messed</text>
+<text x="48" y="686" class="small" text-anchor="start">up. And I&#x27;...</text>
+<text x="36" y="758" class="subtitle" text-anchor="start">L11 top tokens are diffuse and mostly unreadable; readable affect/style tokens emerge later. Logit-lens words are tentative next-token probabilities, not concepts stored verbatim.</text>
+</svg>

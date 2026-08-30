@@ -31,6 +31,11 @@ raw files requires the matching local JSON and NPZ archives.
 - **`make_findings_graphs.py`** parses the committed JSONs and derived CSVs, then
   renders the SVG figures used in the README and analysis notes.
 
+- **`make_grand_report.py`** reads the committed six-run derived tables and one
+  published Round-1 JSON example. It regenerates the outside-reader experiment,
+  Layer 11, logit-lens, and behavior figures plus the canonical PDF report under
+  `docs/`.
+
 - **`grand_analysis/`** contains the current six-run derived summaries. It is an
   output folder, not a standalone analysis script.
 
@@ -54,10 +59,12 @@ python analysis/analyze_vector_crossval.py \
   --round2-npz-root /path/to/round2
 
 python analysis/make_findings_graphs.py
+
+python analysis/make_grand_report.py
 ```
 
 The first two commands require all matching NPZ archives. The final graph command
-uses the committed JSON and CSV files and does not need NPZs.
+and the grand-report command use committed JSON/CSV files and do not need NPZs.
 
 ## Output Meaning
 

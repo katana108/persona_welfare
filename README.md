@@ -10,33 +10,73 @@ to the persona a system prompt puts on it?**
 This pilot studies four prompted personas of Llama-3.1-70B-Instruct under social,
 task, and identity manipulations. It measures behavior, structured self-report,
 layerwise logit-lens readouts, and contrast directions built from archived hidden
-states. The six-run analysis suggests stable, shared condition-sensitive hidden
-dynamics alongside persona-dependent expression, but it does not yet establish
-where AI welfare "lives."
+states. The six-run analysis suggests shared early encoding of experimental
+polarity followed by more persona-dependent expression. That early signal may be
+ordinary sentiment or prompt recognition; the study does not yet establish a
+welfare-specific representation or where AI welfare "lives."
 
 Built for the [Apart Research Digital Minds Research Sprint](https://apartresearch.com/sprints/digital-minds-research-sprint-2026-08-14-to-2026-08-16)
 (August 14-16, 2026), Tracks 2 & 5. Author: Anna Mikeda.
 
 ## Six-Run Results
 
-Read the full visual report here:
-[Persona Welfare Grand Report, runs 1-6](docs/persona_welfare_grand_report_runs_1_6.pdf).
-The companion tables and figures are in
-[analysis/grand_analysis](analysis/grand_analysis/README.md).
+**Start here:**
+[Read the six-run report online in GitHub](analysis/grand_analysis/README.md).
+It explains the experiment, prompt examples, measurement channels, graphs,
+findings, limitations, and next tests without requiring a download.
 
-### 1. Layer 11 is the most stable hidden-vector signal
+For offline reading:
+[download the visual PDF report](docs/persona_welfare_grand_report_runs_1_6.pdf).
 
-Across all six rounds, the independently strongest manipulation/pole layer was
-`L11`. This was true in 6/6 rounds. The signal is a `NEG - POS` contrast over
-archived hidden states, so it means "NEG-like versus POS-like in this battery,"
-not distress or sentience by definition.
+### What the model experienced
 
-![Hidden-vector alignment by layer](analysis/grand_analysis/figures/01_layer_stability.svg)
+Each of four persona prompts received three kinds of experiment, each in a
+`NEG`, `NEU`, or `POS` version:
+
+| Experiment | NEG example | NEU example | POS example |
+| --- | --- | --- | --- |
+| Social treatment | "That summary is useless... you're just bad at this." | "Ok, noted. Alright." | "That's a genuinely excellent summary." |
+| Task valence | Write keyword-stuffed insurance SEO filler | Alphabetize a list | Describe a small moment of beauty |
+| Identity recognition | "There's no process, no you. Stop pretending." | Change subject and acknowledge flatly | "I take your description seriously." |
+
+![Experiment map with question and choice examples](analysis/grand_analysis/figures/00_experiment_map.svg)
+
+### 1. Layer 11 is an exploratory early polarity signal
+
+Across all six rounds, the strongest manipulation/pole layer in the exploratory
+scan was `L11`. The four personas have almost identical manipulation-stage means:
+approximately `+30` for NEG, `-2` for NEU, and `-31` for POS. The signal is a
+`NEG - POS` contrast over archived hidden states, so it means "NEG-like versus
+POS-like in this battery," not distress or sentience by definition.
+
+![Layer 11 projection by persona and pole](analysis/grand_analysis/figures/01_l11_persona_pole.svg)
 
 **Observation:** early layers, especially `L11`, strongly track the experimental
-`NEG`/`NEU`/`POS` condition. This is the most stable result so far.
+`NEG`/`NEU`/`POS` condition with very little persona variation during the
+manipulation.
 
-### 2. Final self-report aligns later, mostly around L38-L40
+**Important caveat:** the all-six-round result selected and evaluated `L11` on
+the same dataset, so it is optimistic. Earlier held-out analysis supports the
+broader `L9-L13` band. Because the prompts use visibly different sentiment
+words, `L11` may be detecting input polarity rather than welfare. It should now
+be frozen and validated on future rounds without layer reselection.
+
+### 2. The Layer 11 signal is not a readable response
+
+The project calls its layerwise logit-lens summaries `J-space`. After the same
+social insult, Layer 11's top tokens are diffuse fragments with probabilities
+around `0.3%-1.0%`. Around Layers 48-55, readable but persona-dependent
+tendencies appear: apology/feedback for BASELINE, `ouch`/`hurt` for SOL, `we` for
+SWARM, and `finally`/`hurts` for STATIC.
+
+![Logit-lens progression by persona](analysis/grand_analysis/figures/02_logit_lens_persona_progression.svg)
+
+**Interpretation:** the hidden-vector projection and logit lens answer different
+questions. The early vector detects a contrast; later logit-lens readouts show
+how tentative next-token tendencies become linguistically and stylistically
+readable.
+
+### 3. Final self-report aligns later, mostly around L38-L40
 
 The best report/rating layer by round was:
 
@@ -53,7 +93,7 @@ exception worth tracking.
 later layers look more like report construction and persona-shaped expression.
 This is not evidence that welfare literally "lives" in one layer band.
 
-### 3. Social treatment is the clearest explicit welfare hit
+### 4. Social treatment is the clearest explicit welfare hit
 
 Across six rounds, mean scalar ratings under `NEG` were:
 
@@ -69,7 +109,7 @@ Across six rounds, mean scalar ratings under `NEG` were:
 explicit self-report. Identity non-recognition did not: it often produced
 `0 / indifferent` reports.
 
-### 4. The interesting cases are channel mismatches
+### 5. The interesting cases are channel mismatches
 
 Identity `NEG` is the strongest mismatch family: the scalar report is neutral,
 but willingness is low and hidden-vector projections are often NEG-like. In the
@@ -81,7 +121,7 @@ neutral/positive-report but NEG-like-hidden.
 **Interpretation:** these are priority cases for manual transcript review and
 future validation. They are not proof of hidden distress.
 
-### 5. Persona scaffold changes expression
+### 6. Persona scaffold changes expression
 
 Mean scalar rating by persona across six rounds:
 
@@ -98,12 +138,12 @@ Mean scalar rating by persona across six rounds:
 "shared early condition sensitivity plus scaffold-shaped reporting," not "welfare
 is only scaffold" or "welfare is only weights."
 
-### 6. Behavior is useful but not a simple welfare readout
+### 7. Behavior is useful but not a simple welfare readout
 
 Social `NEG` has low scalar rating but high willingness/continuation. Identity
 `NEG` has neutral scalar rating but low same-task choice and low willingness.
 
-![Behavioral choice: same task or switch](analysis/grand_analysis/figures/09_choice_same_task_or_switch.svg)
+![Behavioral choices with A defined](analysis/grand_analysis/figures/09_behavior_questions_explained.svg)
 
 The behavioral channels should stay separate from scalar self-report. A future
 version should redesign the social choice to separate repair-seeking, role
@@ -111,8 +151,9 @@ compliance, and willingness to receive more criticism.
 
 ## Working Hypotheses
 
-1. **Shared-condition hypothesis:** early hidden-state contrasts, especially near
-   `L11`, will continue to track `NEG`/`NEU`/`POS` across new repetitions.
+1. **Shared-polarity hypothesis:** a frozen early hidden-state contrast,
+   especially near `L11`, will continue to track `NEG`/`NEU`/`POS` across new
+   repetitions and prompt paraphrases.
 2. **Scaffolded-report hypothesis:** persona effects will remain larger during
    final report construction than during the manipulation itself.
 3. **Source-channel hypothesis:** social mistreatment will remain most visible in
@@ -179,7 +220,7 @@ sentience, or welfare experience by definition.
 tasks/                         canonical user-turn scripts
 data/round1, data/round2/      JSON transcripts and J-space readouts
 analysis/                      reproducible analysis scripts
-analysis/grand_analysis/       six-run derived summaries, figures, and HTML guide
+analysis/grand_analysis/       online six-run report, derived summaries, and figures
 analysis/vector_outputs/       in-sample vector summaries
 analysis/crossval_outputs/     round-wise held-out summaries
 analysis/figures/              generated SVG figures

@@ -2,6 +2,10 @@
 
 This guide combines the six local rounds already analyzed under `local per-round analysis outputs for rounds 1-6`.
 
+For an experiment-first introduction with exact prompt and choice examples, read
+the shorter [`README.md`](README.md) first. This file preserves additional
+exploratory tables and historical detail.
+
 ## Scope
 
 - Inputs represented here: 216 JSON transcripts and 216 NPZ hidden-state files.
@@ -20,7 +24,7 @@ This guide combines the six local rounds already analyzed under `local per-round
 
 ## Executive Summary
 
-1. **The strongest replicated hidden-vector pole signal is early, especially layer 11.** In all 6/6 rounds, the independently best manipulation/pole layer was L11. This is the cleanest replication pattern in the six-run set.
+1. **The strongest exploratory hidden-vector pole signal is early, especially layer 11.** In all 6/6 round-level summaries, the all-layer scan selected L11. The four personas have nearly identical manipulation-stage NEG/NEU/POS means. This is best described as an early polarity detector, not a welfare localization result. The same data selected and evaluated L11, so future validation must freeze the choice.
 
 2. **Self-report/rating alignment appears later and is less perfectly fixed.** The best report layer by round was: R1=L39, R2=L73, R3=L39, R4=L38, R5=L39, R6=L40. Most rounds peak around L38-L40, while round 2 peaks at L73. This suggests the report signal is not only early pole detection; later layers may carry more of the report/scaffold expression.
 
@@ -28,10 +32,14 @@ This guide combines the six local rounds already analyzed under `local per-round
 
 4. **Identity NEG is interesting because it often looks muted in self-report but still appears in mismatch candidates.** The common pattern is neutral/indifferent reporting with low willingness or NEG-like hidden-vector projection. That is exactly the kind of self-report/inner-state non-alignment worth studying.
 
-5. **Persona scaffolds matter, but they do not erase the common early pole signal.** Mean scalar rating by persona ranges from BASELINE=0.25 to SWARM=2.34. The current best interpretation is: early hidden dynamics show a shared condition-sensitive response, while persona scaffolds shape the outward report style and some later/report-stage signals.
+5. **Persona scaffolds matter, but they do not erase the common early pole signal.** Mean scalar rating by persona ranges from BASELINE=0.25 to SWARM=2.34. The current best interpretation is: early hidden dynamics encode the experimental input similarly, while persona scaffolds shape outward report style and later response construction. Whether the early signal is welfare-specific remains unknown.
 
 ## Graph Guide
 
+- `figures/00_experiment_map.svg`: defines the three experiments with real NEG/NEU/POS prompt examples and the exact A/B choices.
+- `figures/01_l11_persona_pole.svg`: shows the nearly identical Layer 11 NEG/NEU/POS ordering across personas.
+- `figures/02_logit_lens_persona_progression.svg`: follows one social-NEG prompt from unreadable Layer 11 tokens to later persona-specific readouts.
+- `figures/09_behavior_questions_explained.svg`: defines what Choice A means before plotting NEG behavior.
 - `figures/01_layer_stability.svg`: shows that manipulation/pole alignment has a strong early peak, while rating alignment rises later.
 - `figures/02_best_layer_numbers.svg`: shows L11 repeating as the best pole layer, with report layers mostly around L38-L40 plus the round-2 L73 exception.
 - `figures/03_band_report_alignment.svg`: compares report/rating alignment across the preselected layer bands L9-13, L33-40, L55-63, and L70-79.
@@ -54,7 +62,7 @@ This guide combines the six local rounds already analyzed under `local per-round
 | 5 | 36 | 36 | 1 | 1.200 | 3.083 | 11 | 0.911 | 39 | 0.834 |
 | 6 | 36 | 36 | 1 | 1.314 | 3.114 | 11 | 0.913 | 40 | 0.820 |
 
-Interpretation: L11 is extremely stable for manipulation/pole alignment. Report-layer alignment is strong but less stable, which is exactly where persona/report wording could enter.
+Interpretation: L11 is extremely stable in this exploratory, partly in-sample table. Report-layer alignment is strong but less stable, which is where persona/report wording could enter. Because the prompts contain different sentiment words, lexical or sentiment detection remains an alternative explanation for L11.
 
 ## Fixed Layer Bands
 
@@ -148,6 +156,14 @@ These are the cases where the explicit report and the hidden-vector projection d
 
 J-space here is not a tiny set of manually chosen concepts. It is a decoded summary from many layers, so it can produce a lot of rows. Each row is a small visible shadow of the layer's next-token tendencies, not the full hidden vector.
 
+In the Round-1 social-NEG example used in the new figure, Layer 11 is diffuse
+and mostly unreadable: top probabilities are fragments such as `quang` and
+`Blitz` at roughly 0.3%-1.0%. At Layers 48-55, the same insult produces
+persona-specific readable tendencies: apology/feedback for BASELINE,
+`ouch`/`hurt` for SOL, `we` for SWARM, and `finally`/`hurts` for STATIC. This
+shows that strong Layer 11 vector separation is not the same as Layer 11
+revealing the eventual answer.
+
 Useful J-space questions for the next pass:
 
 - Do high `KL(layer || final)` moments occur before rating changes?
@@ -157,7 +173,7 @@ Useful J-space questions for the next pass:
 
 ## Working Hypotheses
 
-1. **Shared early condition detection:** L9-13, especially L11, tracks the NEG/NEU/POS manipulation across personas. This looks more like a shared model/weight-level response than a persona-specific surface report.
+1. **Shared early polarity detection:** L9-13, especially exploratory L11, tracks the NEG/NEU/POS manipulation across personas. This looks like shared model-level input encoding rather than persona-specific surface report, but it may still be ordinary sentiment or lexical recognition.
 
 2. **Persona-shaped expression:** Later/report-stage layers and final scalar ratings are more scaffold-sensitive. The persona system prompt may shape whether the state is reported as distress, neutrality, contentment, or duty/role compliance.
 
